@@ -1,0 +1,141 @@
+Servlets_1. What are Servlets ?
+Servlets_2. What are the major tasks of servlets?
+Servlets_3. Servlet life cycle?
+Servlets_4. Servlet methods [init(), service(), doGet(), doPost(), destroy()]
+Servlets_5. How to read data from Servlet?
+Servlets_6. How to read http header information in servlet?
+Servlets_7. What are HttpServletRequest, HttpServletResponse classes?
+Servlets_8. How to write html contents using Servlets?
+Servlets_9. How to send an authentication error from a servlet?
+Servlets_10. How to redirect a request from a servlet to another servlet?
+Servlets_11. How sendRedirect method works?
+Servlets_12. How sendError method works?
+Servlets_13. What are servlet filters, name some of them?
+Servlets_14. Filter methods [init(), doFilter(), destroy()]
+Servlets_15. How to configure central error handling page and handler in servlet?
+Servlets_16. What are cookies?
+Servlets_17. How to create a cookie using servlet?
+Servlets_18. How to read and delete a cookie?
+Servlets_19. What is a session?
+Servlets_20. What is URL rewriting?
+Servlets_21. How to create, delete and update a session?
+Servlets_22. How to set session timeout in servlet?
+Servlets_23. How to set auto page refresh in servlet?
+Servlets_24. What is internalization?
+Servlets_25. What is localization?
+Servlets_26. What is different between web server and application server?
+Servlets_27. What is the difference between GET and POST method?
+Servlets_28. What is MIME Type?
+Servlets_29. What is a web application and what is it’s directory structure?
+Servlets_30. What are the advantages of Servlet over CGI?
+Servlets_31. What is ServletConfig object?
+Servlets_32. What is ServletContext object?
+Servlets_33. What is difference between ServletConfig and ServletContext?
+Servlets_34. What is Request Dispatcher?
+Servlets_35. What is difference between PrintWriter and ServletOutputStream?
+Servlets_36. Can we get PrintWriter and ServletOutputStream both in a servlet?
+Servlets_37. How can we create deadlock situation in servlet?
+Servlets_38. What is the use of servlet wrapper classes?
+Servlets_39. What is SingleThreadModel interface?
+Servlets_40. Do we need to override service() method?
+Servlets_41. Is it good idea to create servlet constructor?
+Servlets_42. What is difference between GenericServlet and HttpServlet?
+Servlets_43. What is the inter-servlet communication?
+Servlets_44. Are Servlets Thread Safe? How to achieve thread safety in servlets?
+Servlets_45. What is servlet attributes and their scope?
+Servlets_46. How do we call one servlet from another servlet?
+Servlets_47. How can we invoke another servlet in a different application?
+Servlets_48. What is difference between ServletResponse sendRedirect() and RequestDispatcher forward() method?
+Servlets_49. Why HttpServlet class is declared abstract?
+Servlets_50. What is URL Encoding?
+Servlets_51. why we should override only no-agrs init() method.
+Servlets_52. What are different methods of session management in servlets?
+Servlets_53. Why do we have servlet listeners?
+Servlets_54. How to make sure a servlet is loaded at the application startup?
+Servlets_55. How to get the actual path of servlet in server?
+Servlets_56. How to get the server information in a servlet?
+Servlets_57. Write a servlet to upload file on server.
+Servlets_58. How do we go with database connection and log4j integration in servlet?
+Servlets_59. How to get the IP address of client in servlet?
+Servlets_60. What are important features of Servlet 3?
+Servlets_61. What are different ways for servlet authentication?
+Servlets_62. How can we achieve transport layer security for our web application?
+Servlets_63. Why super.init(config) is the first statement inside init(config) method.
+Servlets_64. Can we call destroy() method inside the init() method is yes what will happen?
+Servlets_65. How can we refresh servlet on client and server side automatically?
+Servlets_66. How can you get the information about one servlet context in another servlet?
+Servlets_67. Why we need to implement Single Thread model in the case of Servlet.
+Servlets_68. What is servlet collaboration?
+Servlets_69. What are the different types of session tracking mechanism supported by Servlets?
+Servlets_70. What is Servlet lazy loading and how it can be avoided?
+Servlets_71. What is the difference between Server and Container?
+WS_1. REST vs SOAP
+WS_2. How to decide which web service to choose?
+WS_3. Difference between SOA and Web Services ?
+WS_4. What is SOAP?
+WS_5. What is REST?
+WS_6. Can we send soap messages with attachments?
+WS_7. What is MTOM?
+WS_8. What is XOP?
+WS_9. What is SOAP envelope element?
+WS_10. What is SOAP encoding?
+WS_11. What does SOAP encoding style attribute define?
+WS_12. Difference between JAX-WS endpoint styles?
+WS_13. Encoding rules for header entries?
+WS_14. Define wsimport, wsgen tools?
+WS_15. SOAP vs RMI
+WS_16. What is resource in REST?
+WS_17. POST vs PUT methods?
+WS_18. What is WADL?
+WS_19. Name Rest frameworks
+WS_20. What are Restlet, Jersey, RestEasy framework?
+WS_21. Annotations in REST
+WS_22. How to download file in JAX-RS?
+WS_23. Do Web Services provide RPC?
+WS_24. Behavioral characteristics of web services?
+WS_25. Roles in Web service architecture?
+WS_26. layers in web services protocol
+WS_27. What is BEEP?
+WS_28. Can you use a restlet without any web-container?
+WS_29. How to display custom error pages using Restlet web services?
+WS_30. Describe various approaches to develop SOAP web services?
+WS_31. If you have to choose one approach, then what will be your choice?
+WS_32. What type of information is included in SOAP header?
+WS_33. Disadvantages of SOAP?
+WS_34. What happens if RestFull resources are accessed by multiple clients ? do you need to make it thread-safe?
+WS_35. Name browser that allows access to web service?
+WS_36. How one can provide API to users?
+WS_37. Difference between SOAP, COBRA and DCOM
+WS_38. What are the steps performed by the client to access a web service?
+WS_39. Disadvantages of response caching and its alternative solution?
+WS_40. Brief few drawbacks of using GET and POST methods to communicate with the web service?
+WS_41. How can one access a class as a web service?
+WS_42. How can one access the web service class method via internet ?
+WS_43. What is the use of accept and content-type headers in HTTP request?
+WS_44. What is sun-jaxws.xml file?
+WS_45. What is @XmlRootElement annotation?
+WS_46. How to define different status codes in Http response?
+WS_47. What do you understand by payload in restful?
+WS_48. Can you do payload in Get, Delete methods?
+WS_49. How much maximum payload you can do in Post method?
+WS_50. What type of operations are available in WSDL?
+WS_51. Difference between fault and exception in SOAP?
+WS_52. How do you let users log into a restful API?
+WS_53. Caching a rest api?
+WS_54. What is HATEOAS and why is it important?
+WS_55. What is code-on-demand constraint?
+WS_56. If an HTTP Accept header can't be satisfied, return a 406. If an Accept-Language header can't be satisfied, what's the proper response code?
+WS_57. How do I know which HTTP methods are supported?
+WS_58. When should we use PUT and when should we use POST?
+WS_59. What are idempotent and/or safe methods?
+WS_60. When should we return 4xx or 5xx status codes to the client?
+WS_61. Is my API RESTful when I use (only) JSON?
+WS_62. What is the Richardson Maturity Model?
+WS_63. How can I let users create resources that might take a considerable amount of time. I cannot have my users wait on the API to finish?
+WS_64. What's stateless vs state-full session?
+WS_65. Can web services be made state-full ?
+WS_66. WSDL vs WADL
+Java_Memory_1. How to generate Out Of Memory (OOM) in Java ?
+Java_Memory_2. Memory allocation in Java
+Java_Memory_3. What is a JVM? List few and what is the one you are using? (HotSpot)
+Java_Memory_4. How are Java objects stored in memory?

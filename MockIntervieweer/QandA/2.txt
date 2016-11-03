@@ -1,0 +1,82 @@
+DesignPatterns_1. What are design patterns?
+DesignPatterns_2. Describe different types of design patterns?
+DesignPatterns_3. What is a factory pattern?
+DesignPatterns_4. What is an abstract factory pattern?
+DesignPatterns_5. What is a Singleton pattern?
+DesignPatterns_6. How can you create Singleton class in Java?
+DesignPatterns_7. What are the difference between Singleton and static class ?
+DesignPatterns_8. How to prevent cloning of a singleton object?
+DesignPatterns_9. Name some of the design patterns used in JDK library?
+DesignPatterns_10. What is builder pattern?
+DesignPatterns_11. What is prototype pattern?
+DesignPatterns_12. What is decorator pattern?
+DesignPatterns_13. What is facade pattern?
+DesignPatterns_14. What is proxy pattern?
+DesignPatterns_15. What is flyweight pattern?
+DesignPatterns_16. What is iterator pattern?
+DesignPatterns_17. What is Null object pattern?
+DesignPatterns_18. What is MVC pattern?
+DesignPatterns_19. What is Business Delegate pattern?
+DesignPatterns_20. What is data access object pattern?
+DesignPatterns_21. Why Enums are better Singletons in Java?
+DesignPatterns_22. When singleton doesn't remain a singleton class? 
+DesignPatterns_23. Is it better to synchronize critical section for the getInstance() method?
+JAVA-DB_1. Describe physical and logical structure in database? 
+JAVA-DB_2. Can a view be updated/inserted/deleted? If Yes -under what conditions?
+JAVA-DB_3. Explain what is a procedure, package and trigger with examples
+JAVA-DB_4. Pessimistic locking vs optimistic locking?
+JAVA-DB_5. Describe Joins, and define different types of joins.
+JAVA-DB_6. Why group by is only used with having clause and aggregrative functions?
+JAVA-DB_7. What are the different types of triggers?
+JAVA-DB_8. What is a View?
+JAVA-DB_9. What is an index?
+JAVA-DB_10. What is cursor?
+JAVA-DB_11. What is the Correct Order of the Logical Query Processing Phases?
+JAVA-DB_12. Difference in clustered and unclustered index?
+JAVA-DB_13. What are the Different Index Configurations a Table can have?
+JAVA-DB_14. What’s the Difference between a Primary Key and a Unique Key?
+JAVA-DB_15. What is Difference between DELETE and TRUNCATE Commands?
+JAVA-DB_16. What are Different Types of Locks?
+JAVA-DB_17. What is NOT NULL Constraint?
+JAVA-DB_18. What is the difference between UNION and UNION ALL?
+JAVA-DB_19. What is B-Tree?
+JAVA-DB_20. What are the Advantages of Using Stored Procedures?
+JAVA-DB_21. What is SQL Injection? How to Protect Against SQL Injection Attack?
+JAVA-DB_22. What is Database Partitioning?
+JAVA-DB_23. What is max number of columns in index?
+JAVA-DB_24. How many maximum columns in partitions can be used?
+JAVA-DB_25. If the column of the table is having case sensitive data like 'Abc' and 'ABC'  and we want to do case sensitive search on table. How we can improve performance of case sensitive search?
+JAVA-DB_26. What is a Surrogate Key?
+JAVA-DB_27. Remove duplicates from table?
+JAVA-DB_28. Finding N'th Maximum salary SQL query?
+JAVA-DB_29. PL/SQL vs SQL
+JAVA-DB_30. DML, DDL, DCL
+JAVA-DB_31. What are the type of operators available in SQL?
+JAVA-DB_32. What are ACID properties?
+JAVA-DB_33. SQL Query to find second highest salary of Employee
+JAVA-DB_34. SQL Query to find Max Salary from each department.
+JAVA-DB_35. Write SQL Query to display the current date.
+JAVA-DB_36. Write an SQL Query to check whether date passed to Query is the date of given format or not.
+JAVA-DB_37. Write an SQL Query to print the name of the distinct employee whose DOB is between 01/01/1960 to 31/12/1975.
+JAVA-DB_38. Write an SQL Query find number of employees according to gender  whose DOB is between 01/01/1960 to 31/12/1975.
+JAVA-DB_39. Write an SQL Query to find an employee whose Salary is equal or greater than 10000.
+JAVA-DB_40. Write an SQL Query to find name of employee whose name Start with ‘M’
+JAVA-DB_41. find all Employee records containing the word "Joe", regardless of whether it was stored as JOE, Joe, or joe.
+JAVA-DB_42. Write an SQL Query to find  the year from date.
+JAVA-DB_43. Write SQL Query to find duplicate rows in a database? and then write SQL query to delete them?
+JAVA-DB_44. There is a table which contains two column Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above average students.
+JAVA-DB_45. How do you find all employees which are also manager? 
+JAVA-DB_46. You have a composite index of three columns, and you only provide the value of two columns in WHERE clause of a select query? Will Index be used for this operation?
+JAVA-DB_47. How do you implement one-to-one, one-to-many and many-to-many relationships while designing tables?
+JAVA-DB_48. What are user defined datatypes and when you should go for them?
+JAVA-DB_49. What is bit datatype and what's the information that can be stored inside a bit column?
+JAVA-DB_50. Define candidate key, alternate key, composite key
+JAVA-DB_51. CREATE INDEX myIndex ON myTable(myColumn)
+JAVA-DB_52. What are constraints? Explain different types of constraints?
+JAVA-DB_53. What are the steps you will take to improve performance of a poor performing query?
+JAVA-DB_54. What is two phase commit?
+JAVA-DB_55. What is normalization? Explain various methods and give examples
+JAVA-DB_56. What are database anamolies?
+JAVA-DB_57. What is "dirty read" in database?
+JAVA-DB_58. What do you mean by cold backup, hot backup?
+JAVA-DB_59. What is metadata and why should I use it?

@@ -1,0 +1,25 @@
+1) OOPS_15. What are method references and lambda expressions?
+2) WS_65. Can web services be made state-full ?
+3) DesignPatterns_9. Name some of the design patterns used in JDK library?
+4) JDBC_12. Which type of JDBC driver is the fastest one?
+5) WS_21. Annotations in REST
+6) JDBC_20. What is the difference between execute, executeQuery, executeUpdate?
+7) WS_25. Roles in Web service architecture?
+8) Servlets_53. Why do we have servlet listeners?
+9) Collections_15. What is CopyOnWriteArrayList? How is it different from Arraylist?
+10) Threads_20. What are blocking methods?
+11) Servlets_7. What are HttpServletRequest, HttpServletResponse classes?
+12) JAVA-DB_6. Why group by is only used with having clause and aggregrative functions?
+13) JUnit_14. How to simulate timeout situation in JUnit?
+14) JDBC_26. How do I insert an image file (or other raw data) into a database?
+15) Servlets_40. Do we need to override service() method?
+16) OOPS_22. Numeric promotion in Conditional expression. Example
+17) Servlets_8. How to write html contents using Servlets?
+18) JDBC_28. What is the advantage of denormalization?
+19) Servlets_48. What is difference between ServletResponse sendRedirect() and RequestDispatcher forward() method?
+20) JAVA-DB_34. SQL Query to find Max Salary from each department.
+21) JAVA-DB_19. What is B-Tree?
+22) JDBC_38. What are common JDBC Exceptions?
+23) InterviewPrograms_Strings&Arrays_2 Replace Duplicates in a string
+24) DesignPatterns_8. How to prevent cloning of a singleton object?
+25) JDBC_7. What is JDBC DriverManager ?

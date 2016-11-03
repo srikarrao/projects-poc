@@ -1,0 +1,568 @@
+LinkedList_1 Merge sorted linkedlists
+LinkedList_2 Reverse a linkedlist
+LinkedList_14 Add integer based linkedlists
+Strings_1 Convert an integer to String(vice versa)
+Strings_2 base conversion of a string
+Strings_3 Spreadsheet columns conversion
+Arrays_1 Dutch flag partitioning
+Arrays_2 Add integer based arrays
+Arrays_3 Multiply integer based arrays
+Sorting_1 Intersection of two sorted arrays
+Sorting_2 Merge sort in-place
+Sorting_3 Count the frequencies of characters in a sequence
+HashTable_11 Find the maximum length of largest subset of an integer array
+CodingInterview_Strings&Arrays_3 replace ' ' with '%20'
+Collections_1. Which collection classes are synchronized or thread safe?
+Collections_2. Name Collection interfaces
+Collections_3. List vs Set, Map vs Set, iterator vs enumeration, arrayList vs Vector
+Collections_4. HashMap vs HashTable, iterator vs listIterator
+Collections_5. HashSet vs TreeSet, HashMap vs concurrentHashMap, linkedList vs arrayList
+Collections_6. What's wrong using HashMap in multithreaded environment ? When get() go to infinite?
+Collections_7. Disadvantages of Collection classes compared with arrays?
+Collections_8. Disadvantages of arrays?
+Collections_9. Fail Fast vs Fail Safe iterator
+Collections_10. Difference between Queue and Stack?
+Collections_11. peek, poll and remove methods of Queue interface
+Collections_12. How hashMap works in Java?
+Collections_13. Why map doesn't extend the Collection interface?
+Collections_14. How hashSet works internally in Java?
+Collections_15. What is CopyOnWriteArrayList? How is it different from Arraylist?
+Collections_16. How remove(key) method works in hashMap?
+Collections_17. How TreeMap works in Java?
+Collections_18. How do you use a custom object as key in Collection classes like hashMap?
+Collections_19. What is hash-collison in hashTable? How's it handled?
+Collections_20. What is EnumSet?
+Collections_21. How to convert collection class to synchronized collection?
+Collections_22. What is identityHashMap?
+Collections_23. What is weakHashMap?
+Collections_24. How will you make collections readOnly?
+Collections_25. What is unsupportedOperationException?
+Collections_26. Benefits of Generics in collections framework?
+Collections_27. Why collections doesn't extend Serialization and Cloneable interfaces?
+Collections_28. Why there is no Iterator.add() method?
+Collections_29. Can we use any class as map key?
+Collections_30. What are different collection views provided by Map interface?
+Collections_31. Which collection classes provide random access of its elements?
+Collections_32. What is Big-O notation?
+Collections_33. Collection framework best practices?
+JMS_1. What is JMS?
+JMS_2. What type of messaging is provided by JMS?
+JMS_3. What do you mean by Synchronous and asynchronous type of messaging?
+JMS_4. How many type of messaging model do JMS provide for and what are they?
+JMS_5. Explain the difference between topic and queue?
+JMS_6. What is the role of JMS Provider?
+JMS_7. What are the components of JMS?
+JMS_8. Give an example of using point to point model in JMS?
+JMS_9. For JMS-enabled application, what are the core JMS-related objects required?
+JMS_10. What is JMS administered object?
+JMS_11. What is the important part of JMS applications?
+JMS_12. What is JMS session?
+JMS_13. Mention the difference between durable and non-durable subscription?
+JMS_14. What is Byte Message?
+JMS_15. Mention different types of messages available in JMS API?
+JMS_16. What is the difference between the P2P (Peer to Peer) model and subscribe model?
+JMS_17. What is a JMS client?
+JMS_18. Can we send e-mail messages using JMS?
+JMS_19. Explain how Application server handles the JMS Connection?
+JMS_20. What is the difference between JMS and RPC (Remote Procedure Call)?
+JMS_21. Explain how does the JMS work with the J2EE?
+JMS_22. What are the types of messages that are supported by JMS?
+JMS_23. What is MOM in reference to JMS?
+JMS_24. How you can deliver a java message to a non-java client?
+JMS_25. For sending messages through JMS, what encryption options are there?
+JMS_26. Are you aware of any major JMS products available in the market?
+JMS_27. What are the advantages of JMS?
+JMS_28. What is the use of Message object?
+JMS_29. What is the use of StreamMessage?
+JMS_30. What is the use of ByteMessage?
+JMS_31. What is the use of TextMessage?
+JMS_32. What is the use of ObjectMessage?
+JMS_33. What is the use of MapMessage?
+JMS_34. What is the difference between BytesMessage and StreamMessage??
+JMS_35. Can two different JMS services talk to each other? For instance, if A and B are two different JMS providers, can Provider A send messages directly to Provider B? If not, then can a subscriber to Provider A act as a publisher to Provider B?
+JMS_36. What is the advantage of persistent message delivery compared to non-persistent delivery?
+JMS_37. Why doesn't the JMS API provide end-to-end synchronous message delivery and notification of delivery?
+JMS_38. What is MDB and What is the special feature of that?
+JMS_39. What are transaction options available in JMS?
+JMS_40. What are Message delivery stages in JMS?
+JMS_41. How to create Temporary Destinations ?
+Threads_1. Uses of multi-threading
+Threads_2. Who makes your class object as thread object?
+Threads_3. What if we call run() method directly instead start() method?
+Threads_4. Thread states
+Threads_5. Methods in Thread class [run,start, isAlive, stop,  sleep, join, getName, setName, getId, currentThread, yield]
+Threads_6. Preemptive Scheduling vs Time Slicing
+Threads_7. Can we start a thread twice?
+Threads_8. Thread prioritizing in Java
+Threads_9. What is daemon thread?
+Threads_10. What is a thread pool ?
+Threads_11. What is a shut down hook and when does a JVM get shut?
+Threads_12. How to perform multiple tasks by multiple threads (multitasking in multi-threading)?
+Threads_13. What is synchronization in Java?
+Threads_14. What is static synchronization?
+Threads_15. Differences between implementing Runnable interface and extending Thread class?
+Threads_16. What is Callable?
+Threads_17. You have thread T1, T2 and T3, how will you ensure that thread T2 run after T1 and thread T3 run after T2 ?
+Threads_18. What are differences between wait and sleep method in Java ?
+Threads_19. What is the difference between CyclicBarrier and CountDownLatch in Java?
+Threads_20. What are blocking methods?
+Threads_21. What is Java memory model?
+Threads_22. What is volatile keyword?
+Threads_23. Why wait, notify and notifyAll are not inside thread class?
+Threads_24. What is the difference between the interrupted() and isInterrupted() method in Java?
+Threads_25. Why wait and notify method are called from synchronized block?
+Threads_26. When are threads not light weight process?
+Threads_27. Synchronized vs volatile ?
+Threads_28. What is race condition in Java threads and how to solve it?
+Threads_29. How do threads communicate among each other?
+Threads_30. What's the priority of daemon thread ?
+Threads_31. Properties of threads?
+Threads_32. How to stop a thread in Java?
+Threads_33. Why should a thread not be stopped by calling it's method stop()?
+Threads_34. What's busy waiting and how to prevent it?
+Threads_35. Can we use Thread.sleep() for real time processing?
+Threads_36. How can a thread be woken up that has been put to sleep before using Thread.sleep()?
+Threads_37. What's context switching in multi-threading ?
+Threads_38. What's thread group? Why it isn't advised to use?
+Threads_39. What is thread dump? How can one get the Java thread dump of a program?
+Threads_40.  What is atomic operation ?
+Threads_41. What happens if we don't override Thread class run() method?
+Threads_42. What is future task?
+Threads_43. Difference between livelock vs deadlock?
+Threads_44. How do you check if a Thread holds lock?
+Threads_45. How do you take thread dump in Java?
+Threads_46. Which JVM parameter is used to control stack size of a thread?
+Threads_47. Synchronized vs reentrant lock?
+Threads_48. How do you ensure that N threads can access N resources without a deadlock?
+Threads_49. What necessary conditions lead to deadlock situation in a system?
+Threads_50. What's ThreadLocal Class?
+DesignPatterns_1. What are design patterns?
+DesignPatterns_2. Describe different types of design patterns?
+DesignPatterns_3. What is a factory pattern?
+DesignPatterns_4. What is an abstract factory pattern?
+DesignPatterns_5. What is a Singleton pattern?
+DesignPatterns_6. How can you create Singleton class in Java?
+DesignPatterns_7. What are the difference between Singleton and static class ?
+DesignPatterns_8. How to prevent cloning of a singleton object?
+DesignPatterns_9. Name some of the design patterns used in JDK library?
+DesignPatterns_10. What is builder pattern?
+DesignPatterns_11. What is prototype pattern?
+DesignPatterns_12. What is decorator pattern?
+DesignPatterns_13. What is facade pattern?
+DesignPatterns_14. What is proxy pattern?
+DesignPatterns_15. What is flyweight pattern?
+DesignPatterns_16. What is iterator pattern?
+DesignPatterns_17. What is Null object pattern?
+DesignPatterns_18. What is MVC pattern?
+DesignPatterns_19. What is Business Delegate pattern?
+DesignPatterns_20. What is data access object pattern?
+DesignPatterns_21. Why Enums are better Singletons in Java?
+DesignPatterns_22. When singleton doesn't remain a singleton class?
+DesignPatterns_23. Is it better to synchronize critical section for the getInstance() method?
+JAVA-DB_1. Describe physical and logical structure in database?
+JAVA-DB_2. Can a view be updated/inserted/deleted? If Yes -under what conditions?
+JAVA-DB_3. Explain what is a procedure, package and trigger with examples
+JAVA-DB_4. Pessimistic locking vs optimistic locking?
+JAVA-DB_5. Describe Joins, and define different types of joins.
+JAVA-DB_6. Why group by is only used with having clause and aggregrative functions?
+JAVA-DB_7. What are the different types of triggers?
+JAVA-DB_8. What is a View?
+JAVA-DB_9. What is an index?
+JAVA-DB_10. What is cursor?
+JAVA-DB_11. What is the Correct Order of the Logical Query Processing Phases?
+JAVA-DB_12. Difference in clustered and unclustered index?
+JAVA-DB_13. What are the Different Index Configurations a Table can have?
+JAVA-DB_14. What’s the Difference between a Primary Key and a Unique Key?
+JAVA-DB_15. What is Difference between DELETE and TRUNCATE Commands?
+JAVA-DB_16. What are Different Types of Locks?
+JAVA-DB_17. What is NOT NULL Constraint?
+JAVA-DB_18. What is the difference between UNION and UNION ALL?
+JAVA-DB_19. What is B-Tree?
+JAVA-DB_20. What are the Advantages of Using Stored Procedures?
+JAVA-DB_21. What is SQL Injection? How to Protect Against SQL Injection Attack?
+JAVA-DB_22. What is Database Partitioning?
+JAVA-DB_23. What is max number of columns in index?
+JAVA-DB_24. How many maximum columns in partitions can be used?
+JAVA-DB_25. If the column of the table is having case sensitive data like 'Abc' and 'ABC'  and we want to do case sensitive search on table. How we can improve performance of case sensitive search?
+JAVA-DB_26. What is a Surrogate Key?
+JAVA-DB_27. Remove duplicates from table?
+JAVA-DB_28. Finding N'th Maximum salary SQL query?
+JAVA-DB_29. PL/SQL vs SQL
+JAVA-DB_30. DML, DDL, DCL
+JAVA-DB_31. What are the type of operators available in SQL?
+JAVA-DB_32. What are ACID properties?
+JAVA-DB_33. SQL Query to find second highest salary of Employee
+JAVA-DB_34. SQL Query to find Max Salary from each department.
+JAVA-DB_35. Write SQL Query to display the current date.
+JAVA-DB_36. Write an SQL Query to check whether date passed to Query is the date of given format or not.
+JAVA-DB_37. Write an SQL Query to print the name of the distinct employee whose DOB is between 01/01/1960 to 31/12/1975.
+JAVA-DB_38. Write an SQL Query find number of employees according to gender  whose DOB is between 01/01/1960 to 31/12/1975.
+JAVA-DB_39. Write an SQL Query to find an employee whose Salary is equal or greater than 10000.
+JAVA-DB_40. Write an SQL Query to find name of employee whose name Start with ‘M’
+JAVA-DB_41. find all Employee records containing the word "Joe", regardless of whether it was stored as JOE, Joe, or joe.
+JAVA-DB_42. Write an SQL Query to find  the year from date.
+JAVA-DB_43. Write SQL Query to find duplicate rows in a database? and then write SQL query to delete them?
+JAVA-DB_44. There is a table which contains two column Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above average students.
+JAVA-DB_45. How do you find all employees which are also manager?
+JAVA-DB_46. You have a composite index of three columns, and you only provide the value of two columns in WHERE clause of a select query? Will Index be used for this operation?
+JAVA-DB_47. How do you implement one-to-one, one-to-many and many-to-many relationships while designing tables?
+JAVA-DB_48. What are user defined datatypes and when you should go for them?
+JAVA-DB_49. What is bit datatype and what's the information that can be stored inside a bit column?
+JAVA-DB_50. Define candidate key, alternate key, composite key
+JAVA-DB_51. CREATE INDEX myIndex ON myTable(myColumn)
+JAVA-DB_52. What are constraints? Explain different types of constraints?
+JAVA-DB_53. What are the steps you will take to improve performance of a poor performing query?
+JAVA-DB_54. What is two phase commit?
+JAVA-DB_55. What is normalization? Explain various methods and give examples
+JAVA-DB_56. What are database anamolies?
+JAVA-DB_57. What is "dirty read" in database?
+JAVA-DB_58. What do you mean by cold backup, hot backup?
+JAVA-DB_59. What is metadata and why should I use it?
+JDBC_1. Database Query Optimisation tips with JDBC
+JDBC_2. What are the steps in Java to make JDBC connectivity?
+JDBC_3. What are different types of statements in JDBC?
+JDBC_4. What is connection pooling?
+JDBC_5. Does the JDBC-ODBC Bridge support multiple concurrent open statements per connection?
+JDBC_6. Describe a general JDBC Architecture.
+JDBC_7. What is JDBC DriverManager ?
+JDBC_8. What is JDBC Driver?
+JDBC_9. What are the types of resultSet?
+JDBC_10. What are the different JDBC drivers in Java?
+JDBC_11. When should each of the JDBC driver type be used?
+JDBC_12. Which type of JDBC driver is the fastest one?
+JDBC_13. What are the standard isolation levels defined by JDBC?
+JDBC_14. How do you register a driver?There are 2 approaches for registering the Driver?
+JDBC_15. What are the benefits of JDBC 4.0?
+JDBC_16. How does JDBC handle the data types of Java and database?
+JDBC_17. Why would you use a batch process?
+JDBC_18. How will you insert multiple rows into a database in a single transaction?
+JDBC_19. What is the use of blob, clob datatypes in JDBC?
+JDBC_20. What is the difference between execute, executeQuery, executeUpdate?
+JDBC_21. What does the Class.forName("MyClass") do?
+JDBC_22. What is difference between JDBC, JNDI and Hibernate?
+JDBC_23. Which isolation level prevents dirty read in JDBC, connection class?
+JDBC_24. What causes No suitable driver error?
+JDBC_25. Is it possible to connect to multiple databases simultaneously? Using single statement can one update or extract data from multiple databases?
+JDBC_26. How do I insert an image file (or other raw data) into a database?
+JDBC_27. What is SQLWarning and discuss the procedure of retrieving warnings?
+JDBC_28. What is the advantage of denormalization?
+JDBC_29. How does JDBC API helps us in achieving loose coupling between Java Program and JDBC Drivers API?
+JDBC_30. How to get the Database server details in java program?
+JDBC_31. How to set NULL values in JDBC PreparedStatement?
+JDBC_32. What is the limitation of PreparedStatement and how to overcome it?
+JDBC_33. What is the use of setFetchSize() and setMaxRows() methods in Statement?
+JDBC_34. What is JDBC DataSource and what are it’s benefits?
+JDBC_35. How to achieve JDBC Connection Pooling using JDBC DataSource and JNDI in Apache Tomcat Server?
+JDBC_36. What is Apache DBCP API?
+JDBC_37. What is JDBC RowSet? What are different types of RowSet?
+JDBC_38. What are common JDBC Exceptions?
+JDBC_39. What is difference between java.util.Date and java.sql.Date?
+JDBC_40. What is phantom read and which isolation level prevents it?
+JDBC_41. What are JDBC Best Practices?
+JDBC_42. Data source vs Driver Manager?
+Hibernate_1. What is ORM?
+Hibernate_2. What are the advantages of ORM over JDBC?
+Hibernate_3. Name some of the ORM frameworks based on JAVA.
+Hibernate_4. What is Hibernate?
+Hibernate_5. What are the advantages of using Hibernate?
+Hibernate_6. Name some of the databases that hibernate supports
+Hibernate_7. Name some of the java based tools/frameworks that supports hibernate integration
+Hibernate_8. What are the key components/objects of hibernate?
+Hibernate_9. What are the two key components of a hibernate configuration object?
+Hibernate_10. What is a configuration object in hibernate?
+Hibernate_11. What is a SessionFactory in hibernate?
+Hibernate_12. What is a Session in hibernate?
+Hibernate_13. Name some of the properties you would require to configure for a databases in a standalone situation.
+Hibernate_14. What are the three states of a persistent entity at a given point in time?
+Hibernate_15. What is the purpose of Session.beginTransaction() method?
+Hibernate_16. Which method is used to add a criteria to a query?
+Hibernate_17. Which method is used to create a HQL query?
+Hibernate_18. Which method is used to remove a persistent instance from the datastore?
+Hibernate_19. Which method is used to get a persistent instance from the datastore?
+Hibernate_20. Which method is used to save the state of the given instance from the underlying database?
+Hibernate_21. Which method is used to save or update the state of the given instance from the underlying database?
+Hibernate_22. What are persistent classes in hibernate?
+Hibernate_23. What is root node of hbm.xml?
+Hibernate_24. What are the best practices that hibernate recommends for persistent classes.
+Hibernate_25. Where Object/relational mappings are defined in hibernate?
+Hibernate_26. Which element of hbm.xml defines a specific mappings from a Java classes to the database tables?
+Hibernate_27. Which element of hbm.xml defines maps the unique ID attribute in class to the primary key of the database table?
+Hibernate_28. Which element of hbm.xml is used to automatically generate the primary key values?
+Hibernate_29. Which element of hbm.xml is used to map a Java class property to a column in the database table?
+Hibernate_30. What is many-to-one association?
+Hibernate_31. What is one-to-one association?
+Hibernate_32. What is one-to-many association?
+Hibernate_33. What is many-to-many association?
+Hibernate_34. Is SessionFactory a thread-safe object?
+Hibernate_35. Is Session a thread-safe object?
+Hibernate_36. What is the difference between save() and persist() methods of session object?
+Hibernate_37. What is the difference between get() and load() methods of session object?
+Hibernate_38. What is lazy loading?
+Hibernate_39. What is HQL?
+Hibernate_40. What is first level cache in hibernate?
+Hibernate_41. What is second level cache in hibernate?
+Hibernate_42. What is Query level cache in hibernate?
+Hibernate_43. What are concurrency strategies?
+Hibernate_44. Explain hibernate architecture?
+Hibernate_45. What are the inheritance mapping strategies?
+Hibernate_46. How to make a immutable class in hibernate?
+Hibernate_47. What is automatic dirty checking in hibernate?
+Hibernate_48. Is it possible to perform collection mapping with One-to-One and Many-to-One?
+Hibernate_49. Name some important annotations used for Hibernate mapping?
+Hibernate_50. What is difference between openSession and getCurrentSession?
+Hibernate_51. What are the collection types in Hibernate?
+Hibernate_52. How to implement Joins in Hibernate?
+Hibernate_53. Why we should not make Entity Class final?
+Hibernate_54. Can we execute native sql query in hibernate?
+Hibernate_55. What is Named SQL Query? What are the benefits of Named SQL Query?
+Hibernate_56. What is the benefit of Hibernate Criteria API?
+Hibernate_57. What is Hibernate Proxy and how it helps in lazy loading?
+Hibernate_58. What is cascading and what are different types of cascading?
+Hibernate_59. How to use application server JNDI DataSource with Hibernate framework?
+Hibernate_60. How to integrate Hibernate and Spring frameworks?
+Hibernate_61. How to integrate Hibernate with Servlet or Struts2 web applications?
+Hibernate_62. Which design patterns are used in Hibernate framework?
+Hibernate_63. What are best practices to follow with Hibernate framework?
+Hibernate_64. What is Hibernate Validator Framework?
+JUnit_1. What are important features of JUnit?
+JUnit_2. What are JUnit classes? List some of them.
+JUnit_3. What is the purpose of org.junit.Assert class?
+JUnit_4. What is the purpose of org.junit.TestResult class?
+JUnit_5. What is the purpose of org.junit.TestSuite class?
+JUnit_6. What is the purpose of @Test annotation in JUnit?
+JUnit_7. What is the purpose of @Before annotation in JUnit?
+JUnit_8. What is the purpose of @After annotation in JUnit?
+JUnit_9. What is the purpose of @BeforeClass annotation in JUnit?
+JUnit_10. What is the purpose of @AfterClass annotation in JUnit?
+JUnit_11. What is @Ignore annotation and how is this useful?
+JUnit_12. Explain the execution procedure of the JUint test API methods?
+JUnit_13. What is the purpose of org.junit.JUnitCore class?
+JUnit_14. How to simulate timeout situation in JUnit?
+JUnit_15. How can you use JUnit to test that the code throws desired exception?
+JUnit_16. How to create Parameterized tests?
+JUnit_17. How do you use test fixtures?
+JUnit_18. How do you test a "private" method?
+JUnit_19. How do you test a "protected" method?
+JUnit_20. What happens if a JUnit test method is declared to return "String"?
+JUnit_21. Can you use a main() Method for Unit Testing?
+JUnit_22. When are tests garbage collected?
+JUnit_23. What is a Mock Object?
+JUnit_24. Name some of the JUnit Extensions.
+JUnit_25. What is Cactus?  What are the core components of Cactus?
+JUnit_26. What is JWebUnit? What are the advantages of using JWebUnit?
+JUnit_27. What is XMLUnit? What is the use of supporting classes in XMLUnit?
+JUnit_28. How Do You Test a Method That Does not Return Anything?
+JUnit_29. The methods Get () and Set () should be tested for which conditions?
+JUnit_30. For which conditions, the methods Get () and Set () can be left out for testing?
+JUnit_31. Do you need to write a main () method compulsorily in a Junit test case class?
+JUnit_32. What happens if a test method throws an exception?
+Find missing number in an array
+Find multiple numbers are duplicate
+Given two arrays find which number is not present in the hash table
+Find second highest number in integer array
+JAVA program to find the two sum pairs for a given number (InterviewPrograms/TwoSumPairs)
+Three sum
+Find largest and smallest number in the array
+Find top two maximum numbers
+Find depth of binary tree
+Check number is power of two or not?
+Check if the given number is Armstrong number or not
+Find all prime numbers
+Java Program to check if given Binary tree is a BST or not (InterviewPrograms/BSTValidation)
+Count set of bits in an integer
+Swapping without temp variable
+Adding without arithmetic operator
+Program to create a random number (min,max given)
+Zero Matrix (InterviewPrograms/codinginterview.arrays_strings)
+JAVA Program to find the first non repeated character in a string (InterviewPrograms/FirstNonRepeated)
+JAVA program to find if the given strings are anagrams (InterviewPrograms/AnagramFinder)
+JAVA program to reverse a C Style String (InterviewPrograms/C_Style_String)
+Java program to implement the frequency count of characters in a string (InterviewPrograms/FrequencyCount)
+JAVA class to check of two string are one edit away (InterviewPrograms/OneEditString)
+JAVA program to check if a string can form a formidable palindrome (InterviewPrograms/PalindromePermutation)
+JAVA program to remove a given character in a String (InterviewPrograms/RemoveCharacter)
+JAVA program to replace a given character in a String (InterviewPrograms/ReplaceCharacter)
+JAVA Class to replace duplicate characters in a String (InterviewPrograms/ReplaceDuplicates)
+JAVA program to rotate a NXN matrix by 90 degree (InterviewPrograms/RotateArray)
+JAVA program to find if the given string is a collection all unique characters (InterviewPrograms/UniqueCharacters)
+JAVA program to find the longest palindrome in a given string (InterviewPrograms/LongestPalindrome)
+JAVA program to create an out of memory exception (InterviewPrograms/OutOfMemoryProgram)
+JAVA program to validate ipaddress using regular expression (InterviewPrograms/IPAddressValidator_Regex)
+JAVA program to find duplicate words and replace all of them (InterviewPrograms/RegexDuplicateWords)
+JAVA program to validate username (InterviewPrograms/RegexUserNameValidator)
+JAVA Program to validate if the given regular expression is valid (InterviewPrograms/RegexValidator)
+DS_1. Do you see class a data type or data structure? Is it ok to say that interfaces are abstract data types?
+DS_2. What is a data structure?
+DS_3. What is Red Black Tree?
+DS_4. Best sorting technique?
+DS_5. Merge Sort vs Quick Sort?
+DS_6. Sorting algorithms efficiencies
+DS_7. Linear search vs binary search?
+Java_Evolution_1. New features in Java SE5
+Java_Evolution_2. New features in Java SE6
+Java_Evolution_3. New features in Java SE7
+Java_Evolution_4. New features in Java SE8
+Java_Evolution_5. Possible features in Java SE9
+OOPS_1. Why is String Immutable?
+OOPS_2. What kind of reference types are exists in Java? Differences?
+OOPS_3. When do you override equals() and hashcode() methods in hashmap?
+OOPS_4. Shallow comparison vs deep comparison
+OOPS_5. What is string intern() method?
+OOPS_6. Comparable vs Comparator?
+OOPS_7. Define serialization. Conditions to perform serialization.
+OOPS_8. How stringBuffer saves memory ?
+OOPS_9. Data hiding, information hiding vs abstraction vs encapsulation ?
+OOPS_10. What is casting? Different types of casting?
+OOPS_11. What is a wrapper class? What is autoboxing and unboxing?
+OOPS_12. Why char array is preferred over String for storing password?
+OOPS_13. When designing an abstract class, why should you avoid calling abstract methods inside its constructors?
+OOPS_14. What variance is imposed on generic type parameters? How much control does Java give you over this?
+OOPS_15. What are method references and lambda expressions?
+OOPS_16. How are ENUM more powerful than integer constants ? How can this capability be used ?
+OOPS_17. What's reflection ? Give an example of functionality that can be implemented by using reflection.
+OOPS_18. What are static initializers and when do you use them?
+OOPS_19. Do we need forward declaration in Java?
+OOPS_20. What is widening primitive conversion in Java? Give an example
+OOPS_21. Bitwise right shift operators with example
+OOPS_22. Numeric promotion in Conditional expression. Example
+Servlets_1. What are Servlets ?
+Servlets_2. What are the major tasks of servlets?
+Servlets_3. Servlet life cycle?
+Servlets_4. Servlet methods [init(), service(), doGet(), doPost(), destroy()]
+Servlets_5. How to read data from Servlet?
+Servlets_6. How to read http header information in servlet?
+Servlets_7. What are HttpServletRequest, HttpServletResponse classes?
+Servlets_8. How to write html contents using Servlets?
+Servlets_9. How to send an authentication error from a servlet?
+Servlets_10. How to redirect a request from a servlet to another servlet?
+Servlets_11. How sendRedirect method works?
+Servlets_12. How sendError method works?
+Servlets_13. What are servlet filters, name some of them?
+Servlets_14. Filter methods [init(), doFilter(), destroy()]
+Servlets_15. How to configure central error handling page and handler in servlet?
+Servlets_16. What are cookies?
+Servlets_17. How to create a cookie using servlet?
+Servlets_18. How to read and delete a cookie?
+Servlets_19. What is a session?
+Servlets_20. What is URL rewriting?
+Servlets_21. How to create, delete and update a session?
+Servlets_22. How to set session timeout in servlet?
+Servlets_23. How to set auto page refresh in servlet?
+Servlets_24. What is internalization?
+Servlets_25. What is localization?
+Servlets_26. What is different between web server and application server?
+Servlets_27. What is the difference between GET and POST method?
+Servlets_28. What is MIME Type?
+Servlets_29. What is a web application and what is it’s directory structure?
+Servlets_30. What are the advantages of Servlet over CGI?
+Servlets_31. What is ServletConfig object?
+Servlets_32. What is ServletContext object?
+Servlets_33. What is difference between ServletConfig and ServletContext?
+Servlets_34. What is Request Dispatcher?
+Servlets_35. What is difference between PrintWriter and ServletOutputStream?
+Servlets_36. Can we get PrintWriter and ServletOutputStream both in a servlet?
+Servlets_37. How can we create deadlock situation in servlet?
+Servlets_38. What is the use of servlet wrapper classes?
+Servlets_39. What is SingleThreadModel interface?
+Servlets_40. Do we need to override service() method?
+Servlets_41. Is it good idea to create servlet constructor?
+Servlets_42. What is difference between GenericServlet and HttpServlet?
+Servlets_43. What is the inter-servlet communication?
+Servlets_44. Are Servlets Thread Safe? How to achieve thread safety in servlets?
+Servlets_45. What is servlet attributes and their scope?
+Servlets_46. How do we call one servlet from another servlet?
+Servlets_47. How can we invoke another servlet in a different application?
+Servlets_48. What is difference between ServletResponse sendRedirect() and RequestDispatcher forward() method?
+Servlets_49. Why HttpServlet class is declared abstract?
+Servlets_50. What is URL Encoding?
+Servlets_51. why we should override only no-agrs init() method.
+Servlets_52. What are different methods of session management in servlets?
+Servlets_53. Why do we have servlet listeners?
+Servlets_54. How to make sure a servlet is loaded at the application startup?
+Servlets_55. How to get the actual path of servlet in server?
+Servlets_56. How to get the server information in a servlet?
+Servlets_57. Write a servlet to upload file on server.
+Servlets_58. How do we go with database connection and log4j integration in servlet?
+Servlets_59. How to get the IP address of client in servlet?
+Servlets_60. What are important features of Servlet 3?
+Servlets_61. What are different ways for servlet authentication?
+Servlets_62. How can we achieve transport layer security for our web application?
+Servlets_63. Why super.init(config) is the first statement inside init(config) method.
+Servlets_64. Can we call destroy() method inside the init() method is yes what will happen?
+Servlets_65. How can we refresh servlet on client and server side automatically?
+Servlets_66. How can you get the information about one servlet context in another servlet?
+Servlets_67. Why we need to implement Single Thread model in the case of Servlet.
+Servlets_68. What is servlet collaboration?
+Servlets_69. What are the different types of session tracking mechanism supported by Servlets?
+Servlets_70. What is Servlet lazy loading and how it can be avoided?
+Servlets_71. What is the difference between Server and Container?
+WS_1. REST vs SOAP
+WS_2. How to decide which web service to choose?
+WS_3. Difference between SOA and Web Services ?
+WS_4. What is SOAP?
+WS_5. What is REST?
+WS_6. Can we send soap messages with attachments?
+WS_7. What is MTOM?
+WS_8. What is XOP?
+WS_9. What is SOAP envelope element?
+WS_10. What is SOAP encoding?
+WS_11. What does SOAP encoding style attribute define?
+WS_12. Difference between JAX-WS endpoint styles?
+WS_13. Encoding rules for header entries?
+WS_14. Define wsimport, wsgen tools?
+WS_15. SOAP vs RMI
+WS_16. What is resource in REST?
+WS_17. POST vs PUT methods?
+WS_18. What is WADL?
+WS_19. Name Rest frameworks
+WS_20. What are Restlet, Jersey, RestEasy framework?
+WS_21. Annotations in REST
+WS_22. How to download file in JAX-RS?
+WS_23. Do Web Services provide RPC?
+WS_24. Behavioral characteristics of web services?
+WS_25. Roles in Web service architecture?
+WS_26. layers in web services protocol
+WS_27. What is BEEP?
+WS_28. Can you use a restlet without any web-container?
+WS_29. How to display custom error pages using Restlet web services?
+WS_30. Describe various approaches to develop SOAP web services?
+WS_31. If you have to choose one approach, then what will be your choice?
+WS_32. What type of information is included in SOAP header?
+WS_33. Disadvantages of SOAP?
+WS_34. What happens if RestFull resources are accessed by multiple clients ? do you need to make it thread-safe?
+WS_35. Name browser that allows access to web service?
+WS_36. How one can provide API to users?
+WS_37. Difference between SOAP, COBRA and DCOM
+WS_38. What are the steps performed by the client to access a web service?
+WS_39. Disadvantages of response caching and its alternative solution?
+WS_40. Brief few drawbacks of using GET and POST methods to communicate with the web service?
+WS_41. How can one access a class as a web service?
+WS_42. How can one access the web service class method via internet ?
+WS_43. What is the use of accept and content-type headers in HTTP request?
+WS_44. What is sun-jaxws.xml file?
+WS_45. What is @XmlRootElement annotation?
+WS_46. How to define different status codes in Http response?
+WS_47. What do you understand by payload in restful?
+WS_48. Can you do payload in Get, Delete methods?
+WS_49. How much maximum payload you can do in Post method?
+WS_50. What type of operations are available in WSDL?
+WS_51. Difference between fault and exception in SOAP?
+WS_52. How do you let users log into a restful API?
+WS_53. Caching a rest api?
+WS_54. What is HATEOAS and why is it important?
+WS_55. What is code-on-demand constraint?
+WS_56. If an HTTP Accept header can't be satisfied, return a 406. If an Accept-Language header can't be satisfied, what's the proper response code?
+WS_57. How do I know which HTTP methods are supported?
+WS_58. When should we use PUT and when should we use POST?
+WS_59. What are idempotent and/or safe methods?
+WS_60. When should we return 4xx or 5xx status codes to the client?
+WS_61. Is my API RESTful when I use (only) JSON?
+WS_62. What is the Richardson Maturity Model?
+WS_63. How can I let users create resources that might take a considerable amount of time. I cannot have my users wait on the API to finish?
+WS_64. What's stateless vs state-full session?
+WS_65. Can web services be made state-full ?
+WS_66. WSDL vs WADL
+Java_Memory_1. How to generate Out Of Memory (OOM) in Java ?
+Java_Memory_2. Memory allocation in Java
+Java_Memory_3. What is a JVM? List few and what is the one you are using? (HotSpot)
+Java_Memory_4. How are Java objects stored in memory?

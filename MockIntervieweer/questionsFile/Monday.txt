@@ -1,0 +1,124 @@
+Collections_1. Which collection classes are synchronized or thread safe?
+Collections_2. Name Collection interfaces 
+Collections_3. List vs Set, Map vs Set, iterator vs enumeration, arrayList vs Vector
+Collections_4. HashMap vs HashTable, iterator vs listIterator
+Collections_5. HashSet vs TreeSet, HashMap vs concurrentHashMap, linkedList vs arrayList
+Collections_6. What's wrong using HashMap in multithreaded environment ? When get() go to infinite?
+Collections_7. Disadvantages of Collection classes compared with arrays?
+Collections_8. Disadvantages of arrays?
+Collections_9. Fail Fast vs Fail Safe iterator
+Collections_10. Difference between Queue and Stack?
+Collections_11. peek, poll and remove methods of Queue interface
+Collections_12. How hashMap works in Java?
+Collections_13. Why map doesn't extend the Collection interface?
+Collections_14. How hashSet works internally in Java?
+Collections_15. What is CopyOnWriteArrayList? How is it different from Arraylist?
+Collections_16. How remove(key) method works in hashMap?
+Collections_17. How TreeMap works in Java?
+Collections_18. How do you use a custom object as key in Collection classes like hashMap?
+Collections_19. What is hash-collison in hashTable? How's it handled?
+Collections_20. What is EnumSet?
+Collections_21. How to convert collection class to synchronized collection?
+Collections_22. What is identityHashMap?
+Collections_23. What is weakHashMap?
+Collections_24. How will you make collections readOnly?
+Collections_25. What is unsupportedOperationException?
+Collections_26. Benefits of Generics in collections framework?
+Collections_27. Why collections doesn't extend Serialization and Cloneable interfaces?
+Collections_28. Why there is no Iterator.add() method?
+Collections_29. Can we use any class as map key?
+Collections_30. What are different collection views provided by Map interface?
+Collections_31. Which collection classes provide random access of its elements?
+Collections_32. What is Big-O notation?
+Collections_33. Collection framework best practices?
+JMS_1. What is JMS?
+JMS_2. What type of messaging is provided by JMS?
+JMS_3. What do you mean by Synchronous and asynchronous type of messaging?
+JMS_4. How many type of messaging model do JMS provide for and what are they?
+JMS_5. Explain the difference between topic and queue?
+JMS_6. What is the role of JMS Provider?
+JMS_7. What are the components of JMS?
+JMS_8. Give an example of using point to point model in JMS?
+JMS_9. For JMS-enabled application, what are the core JMS-related objects required?
+JMS_10. What is JMS administered object?
+JMS_11. What is the important part of JMS applications?
+JMS_12. What is JMS session?
+JMS_13. Mention the difference between durable and non-durable subscription?
+JMS_14. What is Byte Message?
+JMS_15. Mention different types of messages available in JMS API?
+JMS_16. What is the difference between the P2P (Peer to Peer) model and subscribe model?
+JMS_17. What is a JMS client?
+JMS_18. Can we send e-mail messages using JMS?
+JMS_19. Explain how Application server handles the JMS Connection?
+JMS_20. What is the difference between JMS and RPC (Remote Procedure Call)?
+JMS_21. Explain how does the JMS work with the J2EE?
+JMS_22. What are the types of messages that are supported by JMS?
+JMS_23. What is MOM in reference to JMS?
+JMS_24. How you can deliver a java message to a non-java client?
+JMS_25. For sending messages through JMS, what encryption options are there?
+JMS_26. Are you aware of any major JMS products available in the market?
+JMS_27. What are the advantages of JMS?
+JMS_28. What is the use of Message object?
+JMS_29. What is the use of StreamMessage?
+JMS_30. What is the use of ByteMessage?
+JMS_31. What is the use of TextMessage?
+JMS_32. What is the use of ObjectMessage?
+JMS_33. What is the use of MapMessage?
+JMS_34. What is the difference between BytesMessage and StreamMessage??   
+JMS_35. Can two different JMS services talk to each other? For instance, if A and B are two different JMS providers, can Provider A send messages directly to Provider B? If not, then can a subscriber to Provider A act as a publisher to Provider B?
+JMS_36. What is the advantage of persistent message delivery compared to non-persistent delivery?
+JMS_37. Why doesn't the JMS API provide end-to-end synchronous message delivery and notification of delivery?
+JMS_38. What is MDB and What is the special feature of that?
+JMS_39. What are transaction options available in JMS?
+JMS_40. What are Message delivery stages in JMS?
+JMS_41. How to create Temporary Destinations ?	
+Threads_1. Uses of multi-threading
+Threads_2. Who makes your class object as thread object?
+Threads_3. What if we call run() method directly instead start() method?
+Threads_4. Thread states
+Threads_5. Methods in Thread class [run,start, isAlive, stop,  sleep, join, getName, setName, getId, currentThread, yield]
+Threads_6. Preemptive Scheduling vs Time Slicing
+Threads_7. Can we start a thread twice?
+Threads_8. Thread prioritizing in Java
+Threads_9. What is daemon thread?
+Threads_10. What is a thread pool ?
+Threads_11. What is a shut down hook and when does a JVM get shut?
+Threads_12. How to perform multiple tasks by multiple threads (multitasking in multi-threading)?
+Threads_13. What is synchronization in Java?
+Threads_14. What is static synchronization?
+Threads_15. Differences between implementing Runnable interface and extending Thread class?
+Threads_16. What is Callable?
+Threads_17. You have thread T1, T2 and T3, how will you ensure that thread T2 run after T1 and thread T3 run after T2 ?
+Threads_18. What are differences between wait and sleep method in Java ?
+Threads_19. What is the difference between CyclicBarrier and CountDownLatch in Java?
+Threads_20. What are blocking methods?
+Threads_21. What is Java memory model?
+Threads_22. What is volatile keyword?
+Threads_23. Why wait, notify and notifyAll are not inside thread class?
+Threads_24. What is the difference between the interrupted() and isInterrupted() method in Java?
+Threads_25. Why wait and notify method are called from synchronized block?
+Threads_26. When are threads not light weight process?
+Threads_27. Synchronized vs volatile ?
+Threads_28. What is race condition in Java threads and how to solve it?
+Threads_29. How do threads communicate among each other?
+Threads_30. What's the priority of daemon thread ?
+Threads_31. Properties of threads?
+Threads_32. How to stop a thread in Java?
+Threads_33. Why should a thread not be stopped by calling it's method stop()?
+Threads_34. What's busy waiting and how to prevent it?
+Threads_35. Can we use Thread.sleep() for real time processing?
+Threads_36. How can a thread be woken up that has been put to sleep before using Thread.sleep()?
+Threads_37. What's context switching in multi-threading ?
+Threads_38. What's thread group? Why it isn't advised to use?
+Threads_39. What is thread dump? How can one get the Java thread dump of a program?
+Threads_40.  What is atomic operation ? 
+Threads_41. What happens if we don't override Thread class run() method?
+Threads_42. What is future task?
+Threads_43. Difference between livelock vs deadlock?
+Threads_44. How do you check if a Thread holds lock?
+Threads_45. How do you take thread dump in Java?
+Threads_46. Which JVM parameter is used to control stack size of a thread?
+Threads_47. Synchronized vs reentrant lock?
+Threads_48. How do you ensure that N threads can access N resources without a deadlock?
+Threads_49. What necessary conditions lead to deadlock situation in a system?
+Threads_50. What's ThreadLocal Class?

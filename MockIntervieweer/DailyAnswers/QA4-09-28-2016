@@ -1,0 +1,25 @@
+1) OOPS_8. How stringBuffer saves memory ?
+2) JAVA-DB_40. Write an SQL Query to find name of employee whose name Start with ‘M’
+3) DesignPatterns_15. What is flyweight pattern?
+4) Hibernate_22. What are persistent classes in hibernate?
+5) Hibernate_14. What are the three states of a persistent entity at a given point in time?
+6) JMS_25. For sending messages through JMS, what encryption options are there?
+7) JDBC_6. Describe a general JDBC Architecture.
+8) JAVA-DB_21. What is SQL Injection? How to Protect Against SQL Injection Attack?
+9) Servlets_60. What are important features of Servlet 3?
+10) Servlets_30. What are the advantages of Servlet over CGI?
+11) JAVA-DB_1. Describe physical and logical structure in database?
+12) Servlets_71. What is the difference between Server and Container?
+13) JMS_22. What are the types of messages that are supported by JMS?
+14) JAVA-DB_41. find all Employee records containing the word "Joe", regardless of whether it was stored as JOE, Joe, or joe.
+15) JAVA-DB_50. Define candidate key, alternate key, composite key
+16) JAVA program to find if the given strings are anagrams (InterviewPrograms/AnagramFinder)
+17) JAVA Class to replace duplicate characters in a String (InterviewPrograms/ReplaceDuplicates)
+18) JUnit_26. What is JWebUnit? What are the advantages of using JWebUnit?
+19) JAVA-DB_39. Write an SQL Query to find an employee whose Salary is equal or greater than 10000.
+20) Collections_11. peek, poll and remove methods of Queue interface
+21) JAVA-DB_37. Write an SQL Query to print the name of the distinct employee whose DOB is between 01/01/1960 to 31/12/1975.
+22) JAVA-DB_5. Describe Joins, and define different types of joins.
+23) Threads_38. What's thread group? Why it isn't advised to use?
+24) JAVA program to validate username (InterviewPrograms/RegexUserNameValidator)
+25) Hibernate_24. What are the best practices that hibernate recommends for persistent classes.

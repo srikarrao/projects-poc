@@ -1,0 +1,25 @@
+1) Hibernate_37. What is the difference between get() and load() methods of session object?
+2) WS_55. What is code-on-demand constraint?
+3) Hibernate_51. What are the collection types in Hibernate?
+4) WS_32. What type of information is included in SOAP header?
+5) Threads_21. What is Java memory model?
+6) OOPS_19. Do we need forward declaration in Java?
+7) JAVA-DB_10. What is cursor?
+8) Hibernate_19. Which method is used to get a persistent instance from the datastore?
+9) Servlets_6. How to read http header information in servlet?
+10) Servlets_8. How to write html contents using Servlets?
+11) DesignPatterns_11. What is prototype pattern?
+12) Servlets_71. What is the difference between Server and Container?
+13) LinkedList_1 Merge sorted linkedlists
+14) Servlets_35. What is difference between PrintWriter and ServletOutputStream?
+15) Hibernate_63. What are best practices to follow with Hibernate framework?
+16) Servlets_51. why we should override only no-agrs init() method.
+17) JDBC_37. What is JDBC RowSet? What are different types of RowSet?
+18) JMS_9. For JMS-enabled application, what are the core JMS-related objects required?
+19) JAVA-DB_11. What is the Correct Order of the Logical Query Processing Phases?
+20) WS_43. What is the use of accept and content-type headers in HTTP request?
+21) Servlets_28. What is MIME Type?
+22) WS_50. What type of operations are available in WSDL?
+23) DS_5. Merge Sort vs Quick Sort?
+24) Collections_30. What are different collection views provided by Map interface?
+25) JAVA-DB_12. Difference in clustered and unclustered index?

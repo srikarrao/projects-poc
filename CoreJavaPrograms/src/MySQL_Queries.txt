@@ -1,0 +1,178 @@
+/** Query to know child tables of a parent table **/
+
+SELECT table_name
+FROM referential_constraints
+WHERE constraint_schema = 'database_name' AND
+      referenced_table_name = 'parent_table' AND
+      delete_rule = 'CASCADE'
+
+/** Example queries for creating table with referential integrity, foriegn key**/
+
+CREATE TABLE buildings (
+  building_no int(11) NOT NULL AUTO_INCREMENT,
+  building_name varchar(255) NOT NULL,
+  address varchar(355) NOT NULL,
+  PRIMARY KEY (building_no)
+) ENGINE=InnoDB;
+
+CREATE TABLE rooms (
+  room_no int(11) NOT NULL AUTO_INCREMENT,
+  room_name varchar(255) NOT NULL,
+  building_no int(11) NOT NULL,
+  PRIMARY KEY (room_no),
+  KEY building_no (building_no),
+  CONSTRAINT rooms_ibfk_1 
+  FOREIGN KEY (building_no) 
+  REFERENCES buildings (building_no) 
+  ON DELETE CASCADE
+) ENGINE=InnoDB
+
+
+/** Example queries for creating table with referential integrity, foriegn ke (Update, delete)**/
+
+CREATE TABLE product_order (
+    no INT NOT NULL AUTO_INCREMENT,
+    product_category INT NOT NULL,
+    product_id INT NOT NULL,
+    customer_id INT NOT NULL,
+
+    PRIMARY KEY(no),
+    INDEX (product_category, product_id),
+    INDEX (customer_id),
+
+    FOREIGN KEY (product_category, product_id)
+      REFERENCES product(category, id)
+      ON UPDATE CASCADE ON DELETE RESTRICT,
+
+    FOREIGN KEY (customer_id)
+      REFERENCES customer(id)
+)   ENGINE=INNODB
+
+
+/** The integrity constraints **/
+ON DELETE CASCADE
+ON UPDATE CASCADE
+ON UPDATE ON DELETE CASCADE
+ON UPDATE RESTRICT
+ON DELETE RESTRICT
+{NO ACTION, NOT NULL, SET NULL, SET DEFAULT}
+
+/** Procedure to check if exists**/
+select case 
+            when exists (select 1 
+                         from sales 
+                         where sales_type = 'Accessories') 
+            then 'Y' 
+            else 'N' 
+        end as rec_exists
+from dual;
+
+/** BOOLEAN in ORACLE **/
+
+Example1:
+create table table_boolean(var_bool number(1) not null check (var_bool in (1,0));
+
+Example 2:
+create table table_boolean(var_bool char check (var_bool in (0,1));
+insert into table_boolean values(0);
+insert into table_boolean values(1); 
+
+/** Database partitioning**/
+1. list partition:
+
+CREATE TABLE employees (
+    id INT NOT NULL,
+    fname VARCHAR(30),
+    lname VARCHAR(30),
+    hired DATE NOT NULL DEFAULT '1970-01-01',
+    separated DATE NOT NULL DEFAULT '9999-12-31',
+    job_code INT,
+    store_id INT
+)
+PARTITION BY LIST(store_id) (
+    PARTITION pNorth VALUES IN (3,5,6,9,17),
+    PARTITION pEast VALUES IN (1,2,10,11,19,20),
+    PARTITION pWest VALUES IN (4,12,13,14,18),
+    PARTITION pCentral VALUES IN (7,8,15,16)
+);
+
+2. Range partitioning:
+
+CREATE TABLE employees (
+    id INT NOT NULL,
+    fname VARCHAR(30),
+    lname VARCHAR(30),
+    hired DATE NOT NULL DEFAULT '1970-01-01',
+    separated DATE NOT NULL DEFAULT '9999-12-31',
+    job_code INT NOT NULL,
+    store_id INT NOT NULL
+)
+PARTITION BY RANGE (store_id) (
+    PARTITION p0 VALUES LESS THAN (6),
+    PARTITION p1 VALUES LESS THAN (11),
+    PARTITION p2 VALUES LESS THAN (16),
+    PARTITION p3 VALUES LESS THAN (21)
+);
+
+3.Hash partitioning:
+
+CREATE TABLE employees (
+    id INT NOT NULL,
+    fname VARCHAR(30),
+    lname VARCHAR(30),
+    hired DATE NOT NULL DEFAULT '1970-01-01',
+    separated DATE NOT NULL DEFAULT '9999-12-31',
+    job_code INT,
+    store_id INT
+)
+PARTITION BY HASH( YEAR(hired) )
+PARTITIONS 4;
+
+4. Key Partitioning:
+
+using primary key:
+
+CREATE TABLE k1 (
+    id INT NOT NULL PRIMARY KEY,
+    name VARCHAR(20)
+)
+PARTITION BY KEY()
+PARTITIONS 2;
+
+using unique key:
+
+CREATE TABLE k1 (
+    id INT NOT NULL,
+    name VARCHAR(20),
+    UNIQUE KEY (id)
+)
+PARTITION BY KEY()
+PARTITIONS 2;
+
+5. Sub Partitioning:
+
+CREATE TABLE ts (id INT, purchased DATE)
+    PARTITION BY RANGE( YEAR(purchased) )
+    SUBPARTITION BY HASH( TO_DAYS(purchased) )
+    SUBPARTITIONS 2 (
+        PARTITION p0 VALUES LESS THAN (1990),
+        PARTITION p1 VALUES LESS THAN (2000),
+        PARTITION p2 VALUES LESS THAN MAXVALUE
+    );
+// NOTE: 5.1 only int type partitioning, since 5.5 partitioning on all data types
+// Example
+CREATE TABLE expenses (
+   expense_date DATE NOT NULL,
+   category VARCHAR(30),
+   amount DECIMAL (10,3)
+);
+
+ALTER TABLE expenses
+PARTITION BY LIST COLUMNS (category)
+(
+   PARTITION p01 VALUES IN ('lodging', 'food'),
+   PARTITION p02 VALUES IN ('flights', 'ground transportation'),
+   PARTITION p03 VALUES IN ('leisure', 'customer entertainment'),
+   PARTITION p04 VALUES IN ('communications'),
+   PARTITION p05 VALUES IN ('fees')
+);

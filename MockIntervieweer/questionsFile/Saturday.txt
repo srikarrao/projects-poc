@@ -1,0 +1,22 @@
+	1. Why is String Immutable?
+	2. What kind of reference types are exists in Java? Differences?
+	3. When do you override equals() and hashcode() methods in hashmap?
+	4. Shallow comparison vs deep comparison 
+	5. What is string intern() method?
+	6. Comparable vs Comparator?
+	7. Define serialization. Conditions to perform serialization.
+	8. How stringBuffer saves memory ?
+	9. Data hiding, information hiding vs abstraction vs encapsulation ?
+	10. What is casting? Different types of casting?
+	11. What is a wrapper class? What is autoboxing and unboxing?
+	12. Why char array is preferred over String for storing password?
+	13. When designing an abstract class, why should you avoid calling abstract methods inside its constructors?
+	14. What variance is imposed on generic type parameters? How much control does Java give you over this?
+	15. What are method references and lambda expressions?
+	16. How are ENUM more powerful than integer constants ? How can this capability be used ?
+	17. What's reflection ? Give an example of functionality that can be implemented by using reflection.
+	18. What are static initializers and when do you use them?
+	19. Do we need forward declaration in Java?
+	20. What is widening primitive conversion in Java? Give an example
+	21. Bitwise right shift operators with example
+	22. Numeric promotion in Conditional expression. Example

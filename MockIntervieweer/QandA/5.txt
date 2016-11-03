@@ -1,0 +1,12 @@
+DS_1. Do you see class a data type or data structure? Is it ok to say that interfaces are abstract data types?
+DS_2. What is a data structure?
+DS_3. What is Red Black Tree?
+DS_4. Best sorting technique?
+DS_5. Merge Sort vs Quick Sort?
+DS_6. Sorting algorithms efficiencies
+DS_7. Linear search vs binary search?
+Java_Evolution_1. New features in Java SE5
+Java_Evolution_2. New features in Java SE6
+Java_Evolution_3. New features in Java SE7
+Java_Evolution_4. New features in Java SE8
+Java_Evolution_5. Possible features in Java SE9

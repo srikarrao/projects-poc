@@ -1,0 +1,25 @@
+1) JDBC_29. How does JDBC API helps us in achieving loose coupling between Java Program and JDBC Drivers API?
+2) Hibernate_45. What are the inheritance mapping strategies?
+3) WS_52. How do you let users log into a restful API?
+4) JAVA-DB_33. SQL Query to find second highest salary of Employee
+5) Servlets_28. What is MIME Type?
+6) DesignPatterns_22. When singleton doesn't remain a singleton class?
+7) Arrays_3 Multiply integer based arrays
+8) Collections_3. List vs Set, Map vs Set, iterator vs enumeration, arrayList vs Vector
+9) Servlets_2. What are the major tasks of servlets?
+10) Servlets_62. How can we achieve transport layer security for our web application?
+11) Hibernate_48. Is it possible to perform collection mapping with One-to-One and Many-to-One?
+12) Servlets_6. How to read http header information in servlet?
+13) JAVA-DB_2. Can a view be updated/inserted/deleted? If Yes -under what conditions?
+14) JDBC_30. How to get the Database server details in java program?
+15) Servlets_65. How can we refresh servlet on client and server side automatically?
+16) WS_62. What is the Richardson Maturity Model?
+17) Servlets_32. What is ServletContext object?
+18) Strings_1 Convert an integer to String(vice versa)
+19) Threads_40.  What is atomic operation ?
+20) OOPS_5. What is string intern() method?
+21) WS_53. Caching a rest api?
+22) Servlets_31. What is ServletConfig object?
+23) LinkedList_14 Add integer based linkedlists
+24) JMS_19. Explain how Application server handles the JMS Connection?
+25) Servlets_23. How to set auto page refresh in servlet?

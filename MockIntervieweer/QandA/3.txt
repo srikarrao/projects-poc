@@ -1,0 +1,138 @@
+JDBC_1. Database Query Optimisation tips with JDBC
+JDBC_2. What are the steps in Java to make JDBC connectivity?
+JDBC_3. What are different types of statements in JDBC?
+JDBC_4. What is connection pooling?
+JDBC_5. Does the JDBC-ODBC Bridge support multiple concurrent open statements per connection?
+JDBC_6. Describe a general JDBC Architecture.
+JDBC_7. What is JDBC DriverManager ?
+JDBC_8. What is JDBC Driver?
+JDBC_9. What are the types of resultSet?
+JDBC_10. What are the different JDBC drivers in Java?
+JDBC_11. When should each of the JDBC driver type be used?
+JDBC_12. Which type of JDBC driver is the fastest one?
+JDBC_13. What are the standard isolation levels defined by JDBC?
+JDBC_14. How do you register a driver?There are 2 approaches for registering the Driver?
+JDBC_15. What are the benefits of JDBC 4.0?
+JDBC_16. How does JDBC handle the data types of Java and database?
+JDBC_17. Why would you use a batch process?
+JDBC_18. How will you insert multiple rows into a database in a single transaction?
+JDBC_19. What is the use of blob, clob datatypes in JDBC?
+JDBC_20. What is the difference between execute, executeQuery, executeUpdate?
+JDBC_21. What does the Class.forName("MyClass") do?
+JDBC_22. What is difference between JDBC, JNDI and Hibernate?
+JDBC_23. Which isolation level prevents dirty read in JDBC, connection class?
+JDBC_24. What causes No suitable driver error?
+JDBC_25. Is it possible to connect to multiple databases simultaneously? Using single statement can one update or extract data from multiple databases? 
+JDBC_26. How do I insert an image file (or other raw data) into a database?
+JDBC_27. What is SQLWarning and discuss the procedure of retrieving warnings?
+JDBC_28. What is the advantage of denormalization?
+JDBC_29. How does JDBC API helps us in achieving loose coupling between Java Program and JDBC Drivers API?
+JDBC_30. How to get the Database server details in java program?
+JDBC_31. How to set NULL values in JDBC PreparedStatement?
+JDBC_32. What is the limitation of PreparedStatement and how to overcome it?
+JDBC_33. What is the use of setFetchSize() and setMaxRows() methods in Statement?
+JDBC_34. What is JDBC DataSource and what are it’s benefits?
+JDBC_35. How to achieve JDBC Connection Pooling using JDBC DataSource and JNDI in Apache Tomcat Server?
+JDBC_36. What is Apache DBCP API?
+JDBC_37. What is JDBC RowSet? What are different types of RowSet?
+JDBC_38. What are common JDBC Exceptions?
+JDBC_39. What is difference between java.util.Date and java.sql.Date?
+JDBC_40. What is phantom read and which isolation level prevents it?
+JDBC_41. What are JDBC Best Practices?
+JDBC_42. Data source vs Driver Manager?
+Hibernate_1. What is ORM? 
+Hibernate_2. What are the advantages of ORM over JDBC? 
+Hibernate_3. Name some of the ORM frameworks based on JAVA.
+Hibernate_4. What is Hibernate?
+Hibernate_5. What are the advantages of using Hibernate? 
+Hibernate_6. Name some of the databases that hibernate supports
+Hibernate_7. Name some of the java based tools/frameworks that supports hibernate integration
+Hibernate_8. What are the key components/objects of hibernate? 
+Hibernate_9. What are the two key components of a hibernate configuration object?
+Hibernate_10. What is a configuration object in hibernate? 
+Hibernate_11. What is a SessionFactory in hibernate? 
+Hibernate_12. What is a Session in hibernate?
+Hibernate_13. Name some of the properties you would require to configure for a databases in a standalone situation. 
+Hibernate_14. What are the three states of a persistent entity at a given point in time?
+Hibernate_15. What is the purpose of Session.beginTransaction() method?
+Hibernate_16. Which method is used to add a criteria to a query? 
+Hibernate_17. Which method is used to create a HQL query? 
+Hibernate_18. Which method is used to remove a persistent instance from the datastore? 
+Hibernate_19. Which method is used to get a persistent instance from the datastore?
+Hibernate_20. Which method is used to save the state of the given instance from the underlying database? 
+Hibernate_21. Which method is used to save or update the state of the given instance from the underlying database?
+Hibernate_22. What are persistent classes in hibernate? 
+Hibernate_23. What is root node of hbm.xml?
+Hibernate_24. What are the best practices that hibernate recommends for persistent classes.   
+Hibernate_25. Where Object/relational mappings are defined in hibernate?     
+Hibernate_26. Which element of hbm.xml defines a specific mappings from a Java classes to the database tables?
+Hibernate_27. Which element of hbm.xml defines maps the unique ID attribute in class to the primary key of the database table? 
+Hibernate_28. Which element of hbm.xml is used to automatically generate the primary key values?
+Hibernate_29. Which element of hbm.xml is used to map a Java class property to a column in the database table? 
+Hibernate_30. What is many-to-one association? 
+Hibernate_31. What is one-to-one association?
+Hibernate_32. What is one-to-many association?
+Hibernate_33. What is many-to-many association? 
+Hibernate_34. Is SessionFactory a thread-safe object?
+Hibernate_35. Is Session a thread-safe object?
+Hibernate_36. What is the difference between save() and persist() methods of session object?
+Hibernate_37. What is the difference between get() and load() methods of session object?
+Hibernate_38. What is lazy loading? 
+Hibernate_39. What is HQL? 
+Hibernate_40. What is first level cache in hibernate? 
+Hibernate_41. What is second level cache in hibernate?
+Hibernate_42. What is Query level cache in hibernate? 
+Hibernate_43. What are concurrency strategies? 
+Hibernate_44. Explain hibernate architecture?
+Hibernate_45. What are the inheritance mapping strategies?
+Hibernate_46. How to make a immutable class in hibernate?
+Hibernate_47. What is automatic dirty checking in hibernate?
+Hibernate_48. Is it possible to perform collection mapping with One-to-One and Many-to-One?
+Hibernate_49. Name some important annotations used for Hibernate mapping?        
+Hibernate_50. What is difference between openSession and getCurrentSession? 
+Hibernate_51. What are the collection types in Hibernate?
+Hibernate_52. How to implement Joins in Hibernate?
+Hibernate_53. Why we should not make Entity Class final?
+Hibernate_54. Can we execute native sql query in hibernate?
+Hibernate_55. What is Named SQL Query? What are the benefits of Named SQL Query?
+Hibernate_56. What is the benefit of Hibernate Criteria API?
+Hibernate_57. What is Hibernate Proxy and how it helps in lazy loading?
+Hibernate_58. What is cascading and what are different types of cascading?
+Hibernate_59. How to use application server JNDI DataSource with Hibernate framework?
+Hibernate_60. How to integrate Hibernate and Spring frameworks?
+Hibernate_61. How to integrate Hibernate with Servlet or Struts2 web applications?
+Hibernate_62. Which design patterns are used in Hibernate framework?
+Hibernate_63. What are best practices to follow with Hibernate framework?
+Hibernate_64. What is Hibernate Validator Framework?
+JUnit_1. What are important features of JUnit?
+JUnit_2. What are JUnit classes? List some of them.
+JUnit_3. What is the purpose of org.junit.Assert class?
+JUnit_4. What is the purpose of org.junit.TestResult class?
+JUnit_5. What is the purpose of org.junit.TestSuite class?
+JUnit_6. What is the purpose of @Test annotation in JUnit?
+JUnit_7. What is the purpose of @Before annotation in JUnit?
+JUnit_8. What is the purpose of @After annotation in JUnit?
+JUnit_9. What is the purpose of @BeforeClass annotation in JUnit?
+JUnit_10. What is the purpose of @AfterClass annotation in JUnit?
+JUnit_11. What is @Ignore annotation and how is this useful?
+JUnit_12. Explain the execution procedure of the JUint test API methods?
+JUnit_13. What is the purpose of org.junit.JUnitCore class?
+JUnit_14. How to simulate timeout situation in JUnit?
+JUnit_15. How can you use JUnit to test that the code throws desired exception?
+JUnit_16. How to create Parameterized tests?
+JUnit_17. How do you use test fixtures?
+JUnit_18. How do you test a "private" method?
+JUnit_19. How do you test a "protected" method?
+JUnit_20. What happens if a JUnit test method is declared to return "String"?
+JUnit_21. Can you use a main() Method for Unit Testing?
+JUnit_22. When are tests garbage collected?
+JUnit_23. What is a Mock Object?
+JUnit_24. Name some of the JUnit Extensions.
+JUnit_25. What is Cactus?  What are the core components of Cactus?
+JUnit_26. What is JWebUnit? What are the advantages of using JWebUnit?
+JUnit_27. What is XMLUnit? What is the use of supporting classes in XMLUnit?
+JUnit_28. How Do You Test a Method That Does not Return Anything?
+JUnit_29. The methods Get () and Set () should be tested for which conditions? 
+JUnit_30. For which conditions, the methods Get () and Set () can be left out for testing?
+JUnit_31. Do you need to write a main () method compulsorily in a Junit test case class?
+JUnit_32. What happens if a test method throws an exception?

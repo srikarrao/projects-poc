@@ -1,0 +1,25 @@
+1) JUnit_5. What is the purpose of org.junit.TestSuite class?
+2) Servlets_67. Why we need to implement Single Thread model in the case of Servlet.
+3) WS_11. What does SOAP encoding style attribute define?
+4) OOPS_9. Data hiding, information hiding vs abstraction vs encapsulation ?
+5) Collections_9. Fail Fast vs Fail Safe iterator
+6) CodingInterview_Strings&Arrays_8 Zero matrix
+7) Hibernate_38. What is lazy loading?
+8) Servlets_52. What are different methods of session management in servlets?
+9) Servlets_4. Servlet methods [init(), service(), doGet(), doPost(), destroy()]
+10) JAVA-DB_51. CREATE INDEX myIndex ON myTable(myColumn)
+11) DS_3. What is Red Black Tree?
+12) JAVA-DB_4. Pessimistic locking vs optimistic locking?
+13) Servlets_55. How to get the actual path of servlet in server?
+14) Hibernate_35. Is Session a thread-safe object?
+15) Threads_12. How to perform multiple tasks by multiple threads (multitasking in multi-threading)?
+16) JDBC_42. Data source vs Driver Manager?
+17) JUnit_1. What are important features of JUnit?
+18) WS_41. How can one access a class as a web service?
+19) JAVA-DB_3. Explain what is a procedure, package and trigger with examples
+20) Servlets_18. How to read and delete a cookie?
+21) JAVA-DB_9. What is an index?
+22) Java_Memory_3. What is a JVM? List few and what is the one you are using? (HotSpot)
+23) WS_36. How one can provide API to users?
+24) DesignPatterns_13. What is facade pattern?
+25) JDBC_32. What is the limitation of PreparedStatement and how to overcome it?

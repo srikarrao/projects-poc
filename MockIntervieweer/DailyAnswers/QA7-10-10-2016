@@ -1,0 +1,25 @@
+1) WS_24. Behavioral characteristics of web services?
+2) JDBC_16. How does JDBC handle the data types of Java and database?
+3) CodingInterview_Strings&Arrays_1 Check string for unique characters
+4) DesignPatterns_20. What is data access object pattern?
+5) Servlets_21. How to create, delete and update a session?
+6) JDBC_13. What are the standard isolation levels defined by JDBC?
+7) Threads_48. How do you ensure that N threads can access N resources without a deadlock?
+8) Servlets_46. How do we call one servlet from another servlet?
+9) Servlets_19. What is a session?
+10) CodingInterview_Strings&Arrays_2 One string permutation of another
+11) Servlets_61. What are different ways for servlet authentication?
+12) CodingInterview_Strings&Arrays_3 replace ' ' with '%20'
+13) Strings_2 base conversion of a string
+14) Threads_34. What's busy waiting and how to prevent it?
+15) Java_Evolution_4. New features in Java SE8
+16) Threads_39. What is thread dump? How can one get the Java thread dump of a program?
+17) Servlets_47. How can we invoke another servlet in a different application?
+18) WS_46. How to define different status codes in Http response?
+19) Java_Evolution_3. New features in Java SE7
+20) WS_47. What do you understand by payload in restful?
+21) Threads_8. Thread prioritizing in Java
+22) Threads_24. What is the difference between the interrupted() and isInterrupted() method in Java?
+23) Strings_1 Convert an integer to String(vice versa)
+24) JDBC_40. What is phantom read and which isolation level prevents it?
+25) Servlets_15. How to configure central error handling page and handler in servlet?

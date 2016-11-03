@@ -1,0 +1,14 @@
+LinkedList_1 Merge sorted linkedlists
+LinkedList_2 Reverse a linkedlist
+LinkedList_14 Add integer based linkedlists
+Strings_1 Convert an integer to String(vice versa)
+Strings_2 base conversion of a string 
+Strings_3 Spreadsheet columns conversion
+Arrays_1 Dutch flag partitioning
+Arrays_2 Add integer based arrays
+Arrays_3 Multiply integer based arrays
+Sorting_1 Intersection of two sorted arrays
+Sorting_2 Merge sort in-place
+Sorting_3 Count the frequencies of characters in a sequence
+HashTable_11 Find the maximum length of largest subset of an integer array
+CodingInterview_Strings&Arrays_3 replace ' ' with '%20'

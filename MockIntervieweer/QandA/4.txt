@@ -1,0 +1,35 @@
+Find missing number in an array 
+Find multiple numbers are duplicate 
+Given two arrays find which number is not present in the hash table 
+Find second highest number in integer array
+JAVA program to find the two sum pairs for a given number (InterviewPrograms/TwoSumPairs)
+Three sum
+Find largest and smallest number in the array
+Find top two maximum numbers 
+Find depth of binary tree 
+Check number is power of two or not?
+Check if the given number is Armstrong number or not 
+Find all prime numbers 
+Java Program to check if given Binary tree is a BST or not (InterviewPrograms/BSTValidation) 
+Count set of bits in an integer 
+Swapping without temp variable 
+Adding without arithmetic operator 
+Program to create a random number (min,max given)
+Zero Matrix (InterviewPrograms/codinginterview.arrays_strings)
+JAVA Program to find the first non repeated character in a string (InterviewPrograms/FirstNonRepeated)
+JAVA program to find if the given strings are anagrams (InterviewPrograms/AnagramFinder)
+JAVA program to reverse a C Style String (InterviewPrograms/C_Style_String)
+Java program to implement the frequency count of characters in a string (InterviewPrograms/FrequencyCount)
+JAVA class to check of two string are one edit away (InterviewPrograms/OneEditString)
+JAVA program to check if a string can form a formidable palindrome (InterviewPrograms/PalindromePermutation)
+JAVA program to remove a given character in a String (InterviewPrograms/RemoveCharacter)
+JAVA program to replace a given character in a String (InterviewPrograms/ReplaceCharacter)
+JAVA Class to replace duplicate characters in a String (InterviewPrograms/ReplaceDuplicates)
+JAVA program to rotate a NXN matrix by 90 degree (InterviewPrograms/RotateArray)
+JAVA program to find if the given string is a collection all unique characters (InterviewPrograms/UniqueCharacters)
+JAVA program to find the longest palindrome in a given string (InterviewPrograms/LongestPalindrome)
+JAVA program to create an out of memory exception (InterviewPrograms/OutOfMemoryProgram)
+JAVA program to validate ipaddress using regular expression (InterviewPrograms/IPAddressValidator_Regex)
+JAVA program to find duplicate words and replace all of them (InterviewPrograms/RegexDuplicateWords)
+JAVA program to validate username (InterviewPrograms/RegexUserNameValidator)
+JAVA Program to validate if the given regular expression is valid (InterviewPrograms/RegexValidator)

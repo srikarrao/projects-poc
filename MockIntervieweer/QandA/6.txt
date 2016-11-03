@@ -1,0 +1,22 @@
+OOPS_1. Why is String Immutable?
+OOPS_2. What kind of reference types are exists in Java? Differences?
+OOPS_3. When do you override equals() and hashcode() methods in hashmap?
+OOPS_4. Shallow comparison vs deep comparison 
+OOPS_5. What is string intern() method?
+OOPS_6. Comparable vs Comparator?
+OOPS_7. Define serialization. Conditions to perform serialization.
+OOPS_8. How stringBuffer saves memory ?
+OOPS_9. Data hiding, information hiding vs abstraction vs encapsulation ?
+OOPS_10. What is casting? Different types of casting?
+OOPS_11. What is a wrapper class? What is autoboxing and unboxing?
+OOPS_12. Why char array is preferred over String for storing password?
+OOPS_13. When designing an abstract class, why should you avoid calling abstract methods inside its constructors?
+OOPS_14. What variance is imposed on generic type parameters? How much control does Java give you over this?
+OOPS_15. What are method references and lambda expressions?
+OOPS_16. How are ENUM more powerful than integer constants ? How can this capability be used ?
+OOPS_17. What's reflection ? Give an example of functionality that can be implemented by using reflection.
+OOPS_18. What are static initializers and when do you use them?
+OOPS_19. Do we need forward declaration in Java?
+OOPS_20. What is widening primitive conversion in Java? Give an example
+OOPS_21. Bitwise right shift operators with example
+OOPS_22. Numeric promotion in Conditional expression. Example

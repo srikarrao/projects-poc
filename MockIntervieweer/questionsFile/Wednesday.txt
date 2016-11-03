@@ -1,0 +1,138 @@
+	1. Database Query Optimisation tips with JDBC
+	2. What are the steps in Java to make JDBC connectivity?
+	3. What are different types of statements in JDBC?
+	4. What is connection pooling?
+	5. Does the JDBC-ODBC Bridge support multiple concurrent open statements per connection?
+	6. Describe a general JDBC Architecture.
+	7. What is JDBC DriverManager ?
+	8. What is JDBC Driver?
+	9. What are the types of resultSet?
+	10. What are the different JDBC drivers in Java?
+	11. When should each of the JDBC driver type be used?
+	12. Which type of JDBC driver is the fastest one?
+	13. What are the standard isolation levels defined by JDBC?
+	14. How do you register a driver?There are 2 approaches for registering the Driver?
+	15. What are the benefits of JDBC 4.0?
+	16. How does JDBC handle the data types of Java and database?
+	17. Why would you use a batch process?
+	18. How will you insert multiple rows into a database in a single transaction?
+	19. What is the use of blob, clob datatypes in JDBC?
+	20. What is the difference between execute, executeQuery, executeUpdate?
+	21. What does the Class.forName("MyClass") do?
+	22. What is difference between JDBC, JNDI and Hibernate?
+	23. Which isolation level prevents dirty read in JDBC, connection class?
+	24. What causes No suitable driver error?
+	25. Is it possible to connect to multiple databases simultaneously? Using single statement can one update or extract data from multiple databases? 
+	26. How do I insert an image file (or other raw data) into a database?
+	27. What is SQLWarning and discuss the procedure of retrieving warnings?
+	28. What is the advantage of denormalization?
+	29. How does JDBC API helps us in achieving loose coupling between Java Program and JDBC Drivers API?
+	30. How to get the Database server details in java program?
+	31. How to set NULL values in JDBC PreparedStatement?
+	32. What is the limitation of PreparedStatement and how to overcome it?
+	33. What is the use of setFetchSize() and setMaxRows() methods in Statement?
+	34. What is JDBC DataSource and what are it’s benefits?
+	35. How to achieve JDBC Connection Pooling using JDBC DataSource and JNDI in Apache Tomcat Server?
+	36. What is Apache DBCP API?
+	37. What is JDBC RowSet? What are different types of RowSet?
+	38. What are common JDBC Exceptions?
+	39. What is difference between java.util.Date and java.sql.Date?
+	40. What is phantom read and which isolation level prevents it?
+	41. What are JDBC Best Practices?
+	42. Data source vs Driver Manager?
+	1. What is ORM? 
+	2. What are the advantages of ORM over JDBC? 
+	3. Name some of the ORM frameworks based on JAVA.
+	4. What is Hibernate?
+	5. What are the advantages of using Hibernate? 
+	6. Name some of the databases that hibernate supports
+	7. Name some of the java based tools/frameworks that supports hibernate integration
+	8. What are the key components/objects of hibernate? 
+	9. What are the two key components of a hibernate configuration object?
+	10. What is a configuration object in hibernate? 
+	11. What is a SessionFactory in hibernate? 
+	12. What is a Session in hibernate?
+	13. Name some of the properties you would require to configure for a databases in a standalone situation. 
+	14. What are the three states of a persistent entity at a given point in time?
+	15. What is the purpose of Session.beginTransaction() method?
+	16. Which method is used to add a criteria to a query? 
+	17. Which method is used to create a HQL query? 
+	18. Which method is used to remove a persistent instance from the datastore? 
+	19. Which method is used to get a persistent instance from the datastore?
+	20. Which method is used to save the state of the given instance from the underlying database? 
+	21. Which method is used to save or update the state of the given instance from the underlying database?
+	22. What are persistent classes in hibernate? 
+	23. What is root node of hbm.xml?
+	24. What are the best practices that hibernate recommends for persistent classes.   
+	25. Where Object/relational mappings are defined in hibernate?     
+	26. Which element of hbm.xml defines a specific mappings from a Java classes to the database tables?
+	27. Which element of hbm.xml defines maps the unique ID attribute in class to the primary key of the database table? 
+	28. Which element of hbm.xml is used to automatically generate the primary key values?
+	29. Which element of hbm.xml is used to map a Java class property to a column in the database table? 
+	30. What is many-to-one association? 
+	31. What is one-to-one association?
+	32. What is one-to-many association?
+	33. What is many-to-many association? 
+	34. Is SessionFactory a thread-safe object?
+	35. Is Session a thread-safe object?
+	36. What is the difference between save() and persist() methods of session object?
+	37. What is the difference between get() and load() methods of session object?
+	38. What is lazy loading? 
+	39. What is HQL? 
+	40. What is first level cache in hibernate? 
+	41. What is second level cache in hibernate?
+	42. What is Query level cache in hibernate? 
+	43. What are concurrency strategies? 
+	44. Explain hibernate architecture?
+	45. What are the inheritance mapping strategies?
+	46. How to make a immutable class in hibernate?
+	47. What is automatic dirty checking in hibernate?
+	48. Is it possible to perform collection mapping with One-to-One and Many-to-One?
+	49. Name some important annotations used for Hibernate mapping?        
+	50. What is difference between openSession and getCurrentSession? 
+	51. What are the collection types in Hibernate?
+	52. How to implement Joins in Hibernate?
+	53. Why we should not make Entity Class final?
+	54. Can we execute native sql query in hibernate?
+	55. What is Named SQL Query? What are the benefits of Named SQL Query?
+	56. What is the benefit of Hibernate Criteria API?
+	57. What is Hibernate Proxy and how it helps in lazy loading?
+	58. What is cascading and what are different types of cascading?
+	59. How to use application server JNDI DataSource with Hibernate framework?
+	60. How to integrate Hibernate and Spring frameworks?
+	61. How to integrate Hibernate with Servlet or Struts2 web applications?
+	62. Which design patterns are used in Hibernate framework?
+	63. What are best practices to follow with Hibernate framework?
+	64. What is Hibernate Validator Framework?
+	1. What are important features of JUnit?
+	2. What are JUnit classes? List some of them.
+	3. What is the purpose of org.junit.Assert class?
+	4. What is the purpose of org.junit.TestResult class?
+	5. What is the purpose of org.junit.TestSuite class?
+	6. What is the purpose of @Test annotation in JUnit?
+	7. What is the purpose of @Before annotation in JUnit?
+	8. What is the purpose of @After annotation in JUnit?
+	9. What is the purpose of @BeforeClass annotation in JUnit?
+	10. What is the purpose of @AfterClass annotation in JUnit?
+	11. What is @Ignore annotation and how is this useful?
+	12. Explain the execution procedure of the JUint test API methods?
+	13. What is the purpose of org.junit.JUnitCore class?
+	14. How to simulate timeout situation in JUnit?
+	15. How can you use JUnit to test that the code throws desired exception?
+	16. How to create Parameterized tests?
+	17. How do you use test fixtures?
+	18. How do you test a "private" method?
+	19. How do you test a "protected" method?
+	20. What happens if a JUnit test method is declared to return "String"?
+	21. Can you use a main() Method for Unit Testing?
+	22. When are tests garbage collected?
+	23. What is a Mock Object?
+	24. Name some of the JUnit Extensions.
+	25. What is Cactus?  What are the core components of Cactus?
+	26. What is JWebUnit? What are the advantages of using JWebUnit?
+	27. What is XMLUnit? What is the use of supporting classes in XMLUnit?
+	28. How Do You Test a Method That Does not Return Anything?
+	29. The methods Get () and Set () should be tested for which conditions? 
+	30. For which conditions, the methods Get () and Set () can be left out for testing?
+	31. Do you need to write a main () method compulsorily in a Junit test case class?
+	32. What happens if a test method throws an exception?

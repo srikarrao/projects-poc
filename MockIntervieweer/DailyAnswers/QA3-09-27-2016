@@ -1,0 +1,31 @@
+1) JDBC_25. Is it possible to connect to multiple databases simultaneously? Using single statement can one update or extract data from multiple databases?
+2) OOPS_16. How are ENUM more powerful than integer constants ? How can this capability be used ?
+3) Servlets_64. Can we call destroy() method inside the init() method is yes what will happen?
+4) JAVA-DB_24. How many maximum columns in partitions can be used?
+5) JUnit_4. What is the purpose of org.junit.TestResult class?
+6) Collections_21. How to convert collection class to synchronized collection?
+7) JAVA-DB_44. There is a table which contains two column Student and Marks, you need to find all the students, whose marks are greater than average marks i.e. list of above average students.
+8) DS_6. Sorting algorithms efficiencies
+9) JAVA-DB_42. Write an SQL Query to find  the year from date.
+10) Hibernate_52. How to implement Joins in Hibernate?
+11) JMS_28. What is the use of Message object?
+12) JAVA-DB_25. If the column of the table is having case sensitive data like 'Abc' and 'ABC'  and we want to do case sensitive search on table. How we can improve performance of case sensitive search?
+13) InterviewPrograms_Miscelleanous_1 Find longest palindrome in a given string
+14) JUnit_32. What happens if a test method throws an exception?
+15) Hibernate_32. What is one-to-many association?
+16) WS_13. Encoding rules for header entries?
+17) Hibernate_17. Which method is used to create a HQL query?
+18) JUnit_27. What is XMLUnit? What is the use of supporting classes in XMLUnit?
+19) WS_63. How can I let users create resources that might take a considerable amount of time. I cannot have my users wait on the API to finish?
+20) JMS_39. What are transaction options available in JMS?
+21) JUnit_24. Name some of the JUnit Extensions.
+22) Servlets_3. Servlet life cycle?
+23) Hibernate_12. What is a Session in hibernate?
+24) Collections_14. How hashSet works internally in Java?
+25) Threads_23. Why wait, notify and notifyAll are not inside thread class?
+----------------------------
+1) Java Program to check if given Binary tree is a BST or not (InterviewPrograms/BSTValidation)
+2) JAVA class to check of two string are one edit away (InterviewPrograms/OneEditString)
+3) JAVA program to find the two sum pairs for a given number (InterviewPrograms/TwoSumPairs)
+4) JAVA program to create an out of memory exception (InterviewPrograms/OutOfMemoryProgram)
+5) JAVA program to rotate a NXN matrix by 90 degree (InterviewPrograms/RotateArray)

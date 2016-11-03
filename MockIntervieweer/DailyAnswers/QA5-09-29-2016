@@ -1,0 +1,25 @@
+1) JMS_20. What is the difference between JMS and RPC (Remote Procedure Call)?
+2) JUnit_12. Explain the execution procedure of the JUint test API methods?
+3) Threads_19. What is the difference between CyclicBarrier and CountDownLatch in Java?
+4) OOPS_2. What kind of reference types are exists in Java? Differences?
+5) Threads_42. What is future task?
+6) Collections_33. Collection framework best practices?
+7) JAVA-DB_12. Difference in clustered and unclustered index?
+8) Threads_47. Synchronized vs reentrant lock?
+9) JMS_16. What is the difference between the P2P (Peer to Peer) model and subscribe model?
+10) DesignPatterns_12. What is decorator pattern?
+11) Java_Evolution_4. New features in Java SE8
+12) Hibernate_60. How to integrate Hibernate and Spring frameworks?
+13) JAVA-DB_15. What is Difference between DELETE and TRUNCATE Commands?
+14) Arrays_2 Add integer based arrays
+15) WS_51. Difference between fault and exception in SOAP?
+16) WS_3. Difference between SOA and Web Services ?
+17) Count set of bits in an integer
+18) Threads_10. What is a thread pool ?
+19) JAVA-DB_48. What are user defined datatypes and when you should go for them?
+20) Threads_21. What is Java memory model?
+21) JAVA program to check if a string can form a formidable palindrome (InterviewPrograms/PalindromePermutation)
+22) DS_4. Best sorting technique?
+23) JDBC_23. Which isolation level prevents dirty read in JDBC, connection class?
+24) Collections_8. Disadvantages of arrays?
+25) WS_44. What is sun-jaxws.xml file?

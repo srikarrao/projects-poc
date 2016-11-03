@@ -1,0 +1,12 @@
+|	Case_Number	|	Thread1	|	Thread2	|	Thread3	|	Thread4	|	Synchronized	|	Output	|
+	1			Same		Same		N/A		N/A		NO			Merge	
+	2			Diff		Same		N/A		N/A		YES			Merge
+	3			Same		Same		N/A		N/A		YES			No-Merge
+	4			Diff		Diff		N/A		N/A		NO			Merge
+
+
+|	Case_Number	|	Thread1	|	Thread2	|	Thread3	|	Thread4	|	Synchronized	|	Sleep	|	Output				|
+	5			Same1		Same1		Same2		Same2		NO			NO		All-Merge	
+	6			Same1		Same1		Same2		Same2		YES			NO		All-Merge
+	7			Same1		Same1		Same2		Same2		YES			YES		No-Merge
+	8			Same1		Same1		Same2		Same2		NO			YES		(T1,T2) Merge, (T3,T4) Merge
