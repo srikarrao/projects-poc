@@ -21,7 +21,6 @@ public class PalindromeIndex {
 		int end = S.length() - 1;
 
 		while (start < end) {
-
 			if (S.charAt(start) != S.charAt(end)) {
 				if (isPalindrome(S.substring(start, end))) {
 					return end;
@@ -32,7 +31,7 @@ public class PalindromeIndex {
 			start++;
 			end--;
 		}
-		return -1;
+		return -1; // cannot be formidable palindrome word
 	}
 
 	/**
