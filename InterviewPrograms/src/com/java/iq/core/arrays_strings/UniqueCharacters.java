@@ -13,10 +13,10 @@ import java.util.Map;
 public class UniqueCharacters {
 
 	public static void main(String[] args) {
-		System.out.println(isUniqueBiwise("abf"));
-		System.out.println(isUniqueArrays("abc"));
-		System.out.println(isUniquehashmap("abc"));
-		
+		System.out.println(isUniqueBitwise("ab/f"));
+		System.out.println(isUniqueArrays("AZaz"));
+		System.out.println(isUniquehashmap("AZaz"));
+
 	}
 
 	/**
@@ -25,7 +25,7 @@ public class UniqueCharacters {
 	 * @param s
 	 * @return
 	 */
-	private static boolean isUniqueBiwise(String s) {
+	private static boolean isUniqueBitwise(String s) {
 		int checker = 0;
 		for (int i = 0; i < s.length(); i++) {
 			int val = s.charAt(i) - 'a';
@@ -48,6 +48,11 @@ public class UniqueCharacters {
 		boolean[] charChecker = new boolean[128];
 		for (int i = 0; i < s.length(); i++) {
 			int x = s.charAt(i);
+
+			if (x >= 65 && x <= 90) {
+				x += 32;
+			}
+
 			if (charChecker[x] == true) {
 				return false;
 			}
