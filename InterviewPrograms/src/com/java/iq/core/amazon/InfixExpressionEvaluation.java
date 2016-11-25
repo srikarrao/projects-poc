@@ -32,6 +32,8 @@ public class InfixExpressionEvaluation {
 				while (i < tokens.length && tokens[i] >= '0'
 						&& tokens[i] <= '9')
 					sbuf.append(tokens[i++]);
+
+				i--;
 				values.push(Integer.parseInt(sbuf.toString()));
 			}
 
@@ -106,5 +108,8 @@ public class InfixExpressionEvaluation {
 				.evaluate("100 * ( 2 + 12 )"));
 		System.out.println(InfixExpressionEvaluation
 				.evaluate("100 * ( 2 + 12 ) / 14"));
+		System.out.println(InfixExpressionEvaluation.evaluate("5*(10+2*6)"));
+		System.out.println(InfixExpressionEvaluation.evaluate("6+5*(3-2)"));
+		System.out.println(InfixExpressionEvaluation.evaluate("10 * (2 + 6)"));
 	}
 }

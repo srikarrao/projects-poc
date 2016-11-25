@@ -1,6 +1,5 @@
 package com.java.iq.core.arrays_strings;
 
-import java.util.HashSet;
 
 /**
  * JAVA program to rotate a NXN matrix by 90 degree

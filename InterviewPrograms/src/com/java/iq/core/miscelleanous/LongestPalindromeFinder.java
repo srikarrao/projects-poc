@@ -2,7 +2,11 @@ package com.java.iq.core.miscelleanous;
 
 /**
  * JAVA program to find the longest palindrome in a given string
+ * 
  * @author SrikarRao
+ * 
+ * 
+ *         Time: O(n ^ 2), Space: O(1)
  *
  */
 public class LongestPalindromeFinder {
@@ -21,7 +25,7 @@ public class LongestPalindromeFinder {
 	private static String longestPalindromeString(String s) {
 		if (s == null)
 			return null;
-		
+
 		// 12321
 		String longest = s.substring(0, 1);
 		for (int i = 0; i < s.length() - 1; i++) {
@@ -42,7 +46,7 @@ public class LongestPalindromeFinder {
 	private static String intermediatePalindrome(String s, int left, int right) {
 		if (left > right)
 			return null;
-		
+
 		while (left >= 0 && right < s.length()
 				&& s.charAt(left) == s.charAt(right)) {
 			left--;
