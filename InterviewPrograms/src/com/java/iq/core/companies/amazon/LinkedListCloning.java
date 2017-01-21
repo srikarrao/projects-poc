@@ -1,4 +1,4 @@
-package com.java.iq.core.amazon;
+package com.java.iq.core.companies.amazon;
 
 //Java program to clone a linked list with random pointers
 import java.util.HashMap;

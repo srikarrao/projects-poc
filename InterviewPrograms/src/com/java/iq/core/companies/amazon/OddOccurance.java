@@ -1,4 +1,4 @@
-package com.java.iq.core.amazon;
+package com.java.iq.core.companies.amazon;
 
 /**
  * Java program to find the element occurring odd number of times

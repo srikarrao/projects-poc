@@ -1,4 +1,4 @@
-package com.java.functional;
+/*package com.java.functional;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,3 +28,4 @@ public class Java8MethodRef {
 
 	}
 }
+*/

@@ -1,4 +1,4 @@
-package com.java.iq.core.amazon;
+package com.java.iq.core.companies.amazon;
 
 /* A Java program to evaluate a given expression where tokens are separated 
  by space.

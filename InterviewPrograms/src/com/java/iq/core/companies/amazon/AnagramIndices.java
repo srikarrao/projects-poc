@@ -1,4 +1,4 @@
-package com.java.iq.core.amazon;
+package com.java.iq.core.companies.amazon;
 
 // Java program to print indices of an anagram in a given string
 public class AnagramIndices {

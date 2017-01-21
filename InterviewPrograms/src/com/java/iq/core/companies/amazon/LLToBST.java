@@ -1,4 +1,4 @@
-package com.java.iq.core.amazon;
+package com.java.iq.core.companies.amazon;
 
 /**
  * JAVA program to convert LinkedList to Binary Search Tree
