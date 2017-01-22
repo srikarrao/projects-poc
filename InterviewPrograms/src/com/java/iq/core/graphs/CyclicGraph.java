@@ -1,4 +1,4 @@
-package com.java.iq.core.miscelleanous;
+package com.java.iq.core.graphs;
 
 // Java Program for union-find algorithm to detect cycle in a graph
 
