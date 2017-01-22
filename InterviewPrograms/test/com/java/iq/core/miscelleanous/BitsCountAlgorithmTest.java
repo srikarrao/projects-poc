@@ -1,7 +1,9 @@
 package com.java.iq.core.miscelleanous;
 
 import static org.junit.Assert.*;
+
 import org.junit.Test;
+import com.java.iq.core.bitManipulation.BitsCountAlgorithm;
 
 public class BitsCountAlgorithmTest {
 

@@ -3,7 +3,7 @@ package com.java.iq.core.miscelleanous;
 import java.util.Arrays;
 
 /**
- * Java program to Find which number is not present in the given two arrays
+ * Java program to find which number is not present in the given two arrays
  * 
  * @author SrikarRao
  *
