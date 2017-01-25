@@ -1,4 +1,4 @@
-package com.java.iq.core.arrays_strings;
+package com.java.iq.core.arrays;
 
 import java.util.ArrayList;
 import java.util.Arrays;
