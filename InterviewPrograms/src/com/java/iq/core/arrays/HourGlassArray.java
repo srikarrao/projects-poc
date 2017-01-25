@@ -1,4 +1,4 @@
-package com.java.iq.core.arrays_strings;
+package com.java.iq.core.arrays;
 
 /**
  * JAVA program to find the max value of a hour glass array in a 2D Array
@@ -65,8 +65,8 @@ public class HourGlassArray {
 		int maximumValue = Integer.MIN_VALUE;
 
 		// iterate the array to access all the elements
-		for (int i = 0; i < 4; i++) {
-			for (int j = 0; j < 4; j++) {
+		for (int i = 0; i < hourGlass.length - 2; i++) {
+			for (int j = 0; j < hourGlass[i].length - 2; j++) {
 				int result = hourGlass[i][j] + hourGlass[i][j + 1]
 						+ hourGlass[i][j + 2] + hourGlass[i + 1][j + 1]
 						+ hourGlass[i + 2][j] + hourGlass[i + 2][j + 1]
