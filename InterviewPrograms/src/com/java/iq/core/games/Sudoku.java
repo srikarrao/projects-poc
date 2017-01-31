@@ -3,12 +3,22 @@ package com.java.iq.core.games;
 import java.util.Random;
 import java.util.Scanner;
 
+/**
+ * Java program for Sudoku
+ * 
+ * @author SrikarRao
+ *
+ */
 public class Sudoku {
 
 	private static Scanner scn = new Scanner(System.in);
 	private static int count = 0;
 
 	public static void main(String[] args) {
+		beginGame();
+	}
+
+	private static void beginGame() {
 		try {
 			System.out.println("Enter the number of rows-columns");
 			int numOfRows = scn.nextInt();
@@ -134,5 +144,4 @@ public class Sudoku {
 			System.out.println();
 		}
 	}
-
 }
