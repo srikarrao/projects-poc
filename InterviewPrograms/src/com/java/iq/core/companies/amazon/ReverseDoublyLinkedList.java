@@ -16,7 +16,7 @@ public class ReverseDoublyLinkedList {
 		Node current = head;
 		Node temp = null;
 		while (current != null) {
-			temp = current.prev; // swap the next and prev pointer
+			temp = current.prev;
 			current.prev = current.next;
 			current.next = temp;
 			current = current.prev;
@@ -28,7 +28,6 @@ public class ReverseDoublyLinkedList {
 		Node current = head;
 		while (current != null) {
 			System.out.print("  " + current.data);
-
 			current = current.next;
 		}
 	}

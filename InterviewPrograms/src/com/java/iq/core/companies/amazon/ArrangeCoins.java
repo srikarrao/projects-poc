@@ -8,8 +8,6 @@ public class ArrangeCoins {
 		for (int x = 0; x < arr.length; x++) {
 			long n = arr[x];
 			System.out.println(arrangeCoins(n));
-			// System.out.print("Value is : "+n+" :: ");
-			// System.out.println((int) ((Math.sqrt(1 + 8.0 * n) - 1) / 2));
 		}
 	}
 
@@ -27,5 +25,4 @@ public class ArrangeCoins {
 		}
 		return i - 1;
 	}
-
 }

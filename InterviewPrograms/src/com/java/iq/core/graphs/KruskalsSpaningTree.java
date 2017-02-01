@@ -15,13 +15,11 @@ public class KruskalsSpaningTree {
 		class Edge implements Comparable<Edge> {
 			int src, dest, weight;
 
-			// Comparator function used for sorting edges based on their weight
 			public int compareTo(Edge compareEdge) {
 				return this.weight - compareEdge.weight;
 			}
 		};
 
-		// A class to represent a subset for union-find
 		class subset {
 			int parent, rank;
 		};
