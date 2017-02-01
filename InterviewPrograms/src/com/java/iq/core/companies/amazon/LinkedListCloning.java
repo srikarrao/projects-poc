@@ -1,10 +1,16 @@
 package com.java.iq.core.companies.amazon;
 
 //Java program to clone a linked list with random pointers
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
-// Driver Class
+/**
+ * Space: O(n)
+ * 
+ * Time: O(n)
+ * 
+ * @author SrikarRao
+ *
+ */
 class LinkedListCloning {
 	// Linked List Node class
 	static class Node {
