@@ -4,7 +4,7 @@ public class AddTwoBitStrings {
 
 	// The main function that adds two bit sequences and returns the addition
 	private static String addBitStrings(String str1, String str2) {
-		String result = ""; // To store the sum bits
+		String result = "";
 
 		int len1 = str1.length();
 		int len2 = str2.length();
