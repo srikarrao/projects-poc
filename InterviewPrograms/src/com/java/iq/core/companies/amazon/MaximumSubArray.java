@@ -2,7 +2,7 @@ package com.java.iq.core.companies.amazon;
 
 /**
  * Given an array A of N elements, find maximum possible sum of Contiguous
- * Subarray/Non Contiguous Subarray
+ * Sub-Array/Non Contiguous Sub-Array
  * 
  * Kadane’s Algorithm
  * 
@@ -12,7 +12,7 @@ package com.java.iq.core.companies.amazon;
 public class MaximumSubArray {
 
 	/**
-	 * method to find the maximum contiguous subarray
+	 * method to find the maximum contiguous Sub-Array
 	 * 
 	 * @return
 	 */
@@ -31,5 +31,4 @@ public class MaximumSubArray {
 		}
 		return maxSoFar;
 	}
-
 }

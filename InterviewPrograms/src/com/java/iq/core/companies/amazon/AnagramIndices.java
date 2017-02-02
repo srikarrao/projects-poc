@@ -12,16 +12,16 @@ public class AnagramIndices {
 		return true;
 	}
 
-	static void search(char[] pattern, char[] text) {
-		int M = pattern.length;
-		int N = text.length;
+	static void search(String pattern, String text) {
+		int M = pattern.length();
+		int N = text.length();
 
 		int[] countP = new int[MAX];
 		int[] countTW = new int[MAX];
 
 		for (int i = 0; i < M; i++) {
-			int x = pattern[i];
-			int y = text[i];
+			int x = pattern.charAt(i);
+			int y = text.charAt(i);
 			countP[x]++;
 			countTW[y]++;
 		}
@@ -30,11 +30,8 @@ public class AnagramIndices {
 			if (compare(countP, countTW))
 				System.out.println("Found at Index " + (i - M));
 
-			int y = text[i];
-			countTW[y]++;
-
-			int x = text[i - M];
-			countTW[x]--;
+			countTW[text.charAt(i)]++;
+			countTW[text.charAt(i - M)]--;
 		}
 
 		if (compare(countP, countTW))
@@ -42,14 +39,14 @@ public class AnagramIndices {
 	}
 
 	public static void main(String[] args) {
-		char txt1[] = "BACDGABCDA".toCharArray();
-		char pat1[] = "ABCD".toCharArray();
+		String txt1 = "SR_KAR";
+		String pat1 = "_KA";
 		System.out.println("test case-1");
 		search(pat1, txt1);
-		System.out.println("test case-2");
 
-		char txt2[] = "ABCDBACDAB".toCharArray();
-		char pat2[] = "AB".toCharArray();
+		System.out.println("test case-2");
+		String txt2 = "ABCDBACDAB";
+		String pat2 = "AB";
 		search(pat2, txt2);
 	}
 }
