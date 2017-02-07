@@ -91,13 +91,11 @@ public class MergeTwoBST {
 		int[] arr1 = { 1, 3, 5, 7, 9 };
 		Node node1 = arrayToBST(arr1, 0, arr1.length - 1);
 		printBST(node1);
-		// 5 1 3 7 9
 		System.out.println();
 
 		int[] arr2 = { 2, 4, 6, 8, 15 };
 		Node node2 = arrayToBST(arr2, 0, arr2.length - 1);
 		printBST(node2);
-		// 6 2 4 8 15
 		System.out.println();
 
 		Node node = merge(node1, node2);
