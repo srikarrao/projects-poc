@@ -50,7 +50,7 @@ public class TestThreadExample1 {
 		ThreadDemo T2 = new ThreadDemo("Thread - 2 ", PD1);
 		T1.start();
 		T2.start();
-		// Thread.sleep(1000);
+		Thread.sleep(5000);
 		ThreadDemo T3 = new ThreadDemo("Thread - 3 ", PD2);
 		ThreadDemo T4 = new ThreadDemo("Thread - 4 ", PD2);
 		T3.start();

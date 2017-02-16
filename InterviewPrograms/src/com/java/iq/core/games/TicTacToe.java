@@ -1,5 +1,6 @@
 package com.java.iq.core.games;
 
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class TicTacToe {
@@ -8,10 +9,14 @@ public class TicTacToe {
 	private static Scanner keyboard = new Scanner(System.in);
 
 	public static void main(String[] args) {
-		initBoard();
-		displayBoard();
-		playGame();
-		checkScores();
+		try {
+			initBoard();
+			displayBoard();
+			playGame();
+			checkScores();
+		} catch (Exception e) {
+			System.out.println(e);
+		}
 	}
 
 	public static void initBoard() {
@@ -44,7 +49,7 @@ public class TicTacToe {
 		// System.out.println("\t  0 1 2 ");
 	}
 
-	public static void playGame() {
+	public static void playGame() throws InputMismatchException {
 		int row;
 		int col;
 		int i = 0;

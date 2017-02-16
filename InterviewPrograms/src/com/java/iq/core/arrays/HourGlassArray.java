@@ -63,7 +63,6 @@ public class HourGlassArray {
 	public static void maxSumOfHourGlass(int[][] hourGlass) {
 		// Always set the maximumValue to minimum value of Integer
 		int maximumValue = Integer.MIN_VALUE;
-
 		// iterate the array to access all the elements
 		for (int i = 0; i < hourGlass.length - 2; i++) {
 			for (int j = 0; j < hourGlass[i].length - 2; j++) {

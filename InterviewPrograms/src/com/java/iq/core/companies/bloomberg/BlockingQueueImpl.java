@@ -40,5 +40,4 @@ public class BlockingQueueImpl {
 
 		return this.queue.remove(0);
 	}
-
 }

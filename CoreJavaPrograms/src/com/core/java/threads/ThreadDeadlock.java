@@ -2,7 +2,7 @@ package com.core.java.threads;
 
 public class ThreadDeadlock {
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws InterruptedException {
 		final String resource1 = "abc is  bca";
 		final String resource2 = "bca is xyz";
 		// t1 tries to lock resource1 then resource2
@@ -42,6 +42,7 @@ public class ThreadDeadlock {
 		};
 
 		t1.start();
+		// Thread.sleep(2000);
 		t2.start();
 	}
 }

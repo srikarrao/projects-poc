@@ -17,7 +17,7 @@ public class OneEditString {
 	 */
 	public static boolean checkIfOneEditAway(String A, String B) {
 		// return false if any string is null
-		if (A == null || B == null) {
+		if (A == null || B == null || Math.abs(A.length() - B.length()) > 1) {
 			return false;
 		}
 
@@ -66,7 +66,7 @@ public class OneEditString {
 	 */
 	private static boolean oneEditReplace(String A, String B) {
 		boolean isDiff = false;
-		if(A.equals(B)){
+		if (A.equals(B)) {
 			return false;
 		}
 		for (int i = 0; i < A.length(); i++) {

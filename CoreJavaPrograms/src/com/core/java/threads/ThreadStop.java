@@ -12,7 +12,7 @@ import java.util.concurrent.TimeUnit;
 public class ThreadStop {
 	public static void main(String args[]) throws InterruptedException {
 		Server myServer = new Server();
-		Thread t1 = new Thread(myServer, "T1");
+		Thread t1 = new Thread(myServer);
 		t1.start();
 		System.out.println(currentThread().getName()
 				+ " is stopping Server thread");

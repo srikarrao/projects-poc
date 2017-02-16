@@ -9,11 +9,11 @@ package com.java.iq.core.arrays;
 public class LeftRotation {
 
 	public static void main(String[] args) {
-		method1(9);
+		method1(4);
 	}
 
 	public static void method1(int d) {
-		int[] input = { 1, 2, 3, 4, 5, 6, 7 };
+		int[] input = { 1, 2, 3, 4, 5 };
 		int n = input.length;
 		int[] array = new int[n];
 		d %= n;
