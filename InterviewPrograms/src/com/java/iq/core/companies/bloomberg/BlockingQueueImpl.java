@@ -4,7 +4,7 @@ import java.util.*;
 
 public class BlockingQueueImpl {
 
-	private List<List<String>> queue = new LinkedList<List<String>>();
+	private List<String> queue = new LinkedList<String>();
 	private int limit = 10;
 
 	public BlockingQueueImpl(int limit) {
@@ -19,8 +19,7 @@ public class BlockingQueueImpl {
 		return queue.size();
 	}
 
-	public synchronized void enqueue(List<String> item)
-			throws InterruptedException {
+	public synchronized void enqueue(String item) throws InterruptedException {
 		while (this.queue.size() == this.limit) {
 			wait();
 		}
@@ -30,7 +29,7 @@ public class BlockingQueueImpl {
 		this.queue.add(item);
 	}
 
-	public synchronized List<String> dequeue() throws InterruptedException {
+	public synchronized String dequeue() throws InterruptedException {
 		while (this.queue.size() == 0) {
 			wait();
 		}

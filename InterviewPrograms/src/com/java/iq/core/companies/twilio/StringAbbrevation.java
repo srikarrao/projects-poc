@@ -12,7 +12,8 @@ public class StringAbbrevation {
 
 	public static void main(String[] args) {
 		String[] dictionary = { "plain", "amber", "blade" };
-		System.out.println(minAbbreviation("apple", dictionary));
+		// System.out.println(minAbbreviation("abc", dictionary));
+		System.out.println(isValidAbbrForDictionaryWord("xyz", "x2"));
 	}
 
 	public static String minAbbreviation(String target, String[] dictionary) {
@@ -57,6 +58,7 @@ public class StringAbbrevation {
 			if (count > 0) {
 				curr.append(count);
 			}
+			System.out.println("Curr: " + curr.toString());
 			queue.add(curr.toString());
 		} else {
 			getAbbreviations(queue, target, curr, pos + 1, count + 1);

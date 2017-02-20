@@ -18,7 +18,7 @@ public class CallableImpl implements Callable<String> {
 		return Thread.currentThread().getName();
 	}
 
-	public static void main(String args[]) {
+	public static void main(String args[]) throws InterruptedException {
 		// Get ExecutorService from Executors utility class, thread pool size is
 		// 10
 		ExecutorService executor = Executors.newFixedThreadPool(10);
@@ -32,6 +32,8 @@ public class CallableImpl implements Callable<String> {
 			// add Future to the list, we can get return value using Future
 			list.add(future);
 		}
+		System.out.println(list.size());
+		Thread.sleep(1000);
 		for (Future<String> fut : list) {
 			try {
 				// print the return value of Future, notice the output delay in

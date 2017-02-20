@@ -6,21 +6,24 @@ public class SleepImpl extends Thread {
 	public void run() {
 		for (int i = 1; i < 5; i++) {
 			try {
-				synchronized (val1) {
-					Thread.sleep(500);
+				synchronized (this) {
+				Thread.sleep(500);
 				}
 			} catch (InterruptedException e) {
 				System.out.println(e);
 			}
-			System.out.println(i);
+			val1 = val1 + i;
+			System.out.println(val1);
 		}
 	}
 
-	public static void main(String args[]) {
-		SleepImpl t1 = new SleepImpl();
-		SleepImpl t2 = new SleepImpl();
+	public static void main(String args[]) throws InterruptedException {
+		SleepImpl s1 = new SleepImpl();
+		Thread t1 = new Thread(s1);
+		Thread t2 = new Thread(s1);
 
 		t1.start();
 		t2.start();
+		Thread.sleep(1000);
 	}
 }

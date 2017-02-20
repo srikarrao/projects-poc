@@ -18,6 +18,9 @@ public class StringPermutation {
 
 	private static boolean isStringPermutation(String str1, String str2) {
 
+		if (str1 == null && str2 == null) {
+			return true;
+		}
 		if (str1 == null || str2 == null) {
 			return false;
 		}

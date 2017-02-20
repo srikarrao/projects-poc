@@ -11,7 +11,7 @@ import java.util.*;
 public class SwapNodes {
 
 	public static void main(String[] args) {
-		swappingNodes(createTree2(), getTestcases());
+		swappingNodes(createTree3(), getTestcases());
 	}
 
 	private static int[] getTestcases() {
@@ -29,12 +29,10 @@ public class SwapNodes {
 		for (int i = 0; i < testcases.length; i++) {
 			Q.add(root);
 			int x = 1;
-			while (x++ < (Math.pow(2, testcases[i]) / 2)) {
+			while (x++ < (Math.pow(2, testcases[i]) / 2) && Q.peek() != null) {
 				Node<Integer> temp = Q.remove();
-				if (temp != null) {
-					Q.add(temp.left);
-					Q.add(temp.right);
-				}
+				Q.add(temp.left);
+				Q.add(temp.right);
 			}
 
 			while (!Q.isEmpty()) {
@@ -62,6 +60,47 @@ public class SwapNodes {
 		Node<Integer> N3 = new Node<Integer>(4);
 		Node<Integer> N2 = new Node<Integer>(3);
 		Node<Integer> N1 = new Node<Integer>(2);
+
+		N1.left = N3;
+		N1.right = N4;
+		N2.left = N5;
+		N2.right = N6;
+
+		Node<Integer> root = new Node<Integer>(1);
+		root.left = N1;
+		root.right = N2;
+		return root;
+	}
+
+	private static Node<Integer> createTree3() {
+
+		Node<Integer> N14 = new Node<Integer>(15);
+		Node<Integer> N13 = new Node<Integer>(14);
+		Node<Integer> N12 = new Node<Integer>(13);
+		Node<Integer> N11 = new Node<Integer>(12);
+		Node<Integer> N10 = new Node<Integer>(11);
+		Node<Integer> N9 = new Node<Integer>(10);
+		Node<Integer> N8 = new Node<Integer>(9);
+		Node<Integer> N7 = new Node<Integer>(8);
+
+		Node<Integer> N6 = new Node<Integer>(7);
+		Node<Integer> N5 = new Node<Integer>(6);
+		Node<Integer> N4 = new Node<Integer>(5);
+		Node<Integer> N3 = new Node<Integer>(4);
+		Node<Integer> N2 = new Node<Integer>(3);
+		Node<Integer> N1 = new Node<Integer>(2);
+
+		N6.left = N13;
+		N6.right = N14;
+
+		N5.left = N11;
+		N5.right = N12;
+
+		N4.left = N9;
+		N4.right = N10;
+
+		N3.left = N7;
+		N3.right = N8;
 
 		N1.left = N3;
 		N1.right = N4;
