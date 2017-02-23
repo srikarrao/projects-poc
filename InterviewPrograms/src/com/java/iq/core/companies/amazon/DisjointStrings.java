@@ -26,7 +26,7 @@ class DisjointStrings {
 	// Driver method to test above method
 	public static void main(String[] args) {
 		int set1[] = { 10, 5, 3, 4, 6 };
-		int set2[] = { 8, 7, 9, 3 };
+		int set2[] = { 8, 7, 9, 13 };
 		if (areDisjoint(set1, set2))
 			System.out.println("Yes");
 		else
