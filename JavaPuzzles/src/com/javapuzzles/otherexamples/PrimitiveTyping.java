@@ -12,6 +12,8 @@ public class PrimitiveTyping {
 		byte b = -1;
 		char c = 'A';
 		int g = '?';
+		
+		
 		char z = '\uffff';
 
 		int i = c; 
