@@ -30,30 +30,26 @@ public class ArrayIndexProduct {
 
 		int[] res = new int[A.length];
 
-		int product1 = 1;
+		int product = 1;
 		boolean hasZeroValue = false;
 		int zerosCounter = 0;
 		for (int i = 0; i < A.length; i++) {
 			if (A[i] != 0) {
-				product1 *= A[i];
+				product *= A[i];
 			} else {
 				hasZeroValue = true;
-				product1 *= 1;
+				product *= 1;
 				zerosCounter++;
 			}
 		}
 
 		for (int i = 0; i < res.length; i++) {
 			if (A[i] == 0) {
-				if (zerosCounter > 1) {
-					res[i] = 0;
-				} else {
-					res[i] = product1;
-				}
+				res[i] = zerosCounter > 1 ? 0 : product;
 			} else if (hasZeroValue) {
 				res[i] = 0;
 			} else {
-				res[i] = product1 / A[i];
+				res[i] = product / A[i];
 			}
 		}
 		return res;
