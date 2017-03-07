@@ -2,4 +2,16 @@ https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocol
 https://www.quora.com/Distributed-Systems-What-is-a-simple-explanation-of-the-Paxos-algorithm
 
 Distributed Caching:
- 1. 
+ 1. Consistent Hashing
+ 2. Fail-over scenario
+ 3. Replication
+ 4. Security
+ 5. Configuring cache frameworks
+ 6. Redis vs Memcached
+ 7. Hot/Cold cache
+ 8. Frameworks and respective clients
+ 9. Cache Eviction Policy
+ 10. H/W Resources
+ 
+ 
+ 
