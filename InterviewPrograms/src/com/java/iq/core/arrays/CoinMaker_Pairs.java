@@ -1,8 +1,8 @@
-package com.java.iq.core.temp;
+package com.java.iq.core.arrays;
 
 import java.util.*;
 
-public class CoinMaker {
+public class CoinMaker_Pairs {
 
 	private static List<List<Integer>> result = new ArrayList<List<Integer>>();
 

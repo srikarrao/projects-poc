@@ -1,4 +1,4 @@
-package com.java.iq.core.temp;
+package com.java.iq.core.companies.amazon;
 
 /**
  * Given an array, find the maximum difference between two array elements given

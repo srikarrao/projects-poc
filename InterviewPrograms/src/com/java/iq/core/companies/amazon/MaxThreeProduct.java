@@ -1,4 +1,4 @@
-package com.java.iq.core.temp;
+package com.java.iq.core.companies.amazon;
 
 public class MaxThreeProduct {
 

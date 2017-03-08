@@ -1,4 +1,4 @@
-package com.java.iq.core.temp;
+package com.java.iq.core.companies.google;
 
 /**
  * Given a number A, find the smallest number which has only 1s and 0s as its
