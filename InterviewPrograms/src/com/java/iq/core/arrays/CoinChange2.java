@@ -1,4 +1,4 @@
-package com.java.iq.core.temp.mar3;
+package com.java.iq.core.arrays;
 
 /**
  * You are given coins of different denominations and a total amount of money.

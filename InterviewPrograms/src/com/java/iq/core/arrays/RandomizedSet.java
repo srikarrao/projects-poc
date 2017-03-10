@@ -1,4 +1,4 @@
-package com.java.iq.core.temp.mar3;
+package com.java.iq.core.arrays;
 
 import java.util.*;
 
