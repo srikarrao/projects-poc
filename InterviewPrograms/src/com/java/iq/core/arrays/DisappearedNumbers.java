@@ -15,7 +15,7 @@ public class DisappearedNumbers {
 
 	public static void main(String[] args) {
 
-		int[] A = { 4, 3, 2, 7, 8, 2, 3, 1 };
+		int[] A = { 4, 3, 2, 8,7, 2, 3, 1 };
 		List<Integer> res = findDisappearedNumbers(A);
 		for (Integer i : res) {
 			System.out.print(i + " ");
