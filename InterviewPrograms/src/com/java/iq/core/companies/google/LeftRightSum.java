@@ -1,6 +1,6 @@
 package com.java.iq.core.companies.google;
 
-public class PivotIndex {
+public class LeftRightSum {
 
 	/**
 	 * Time Complexity: O(n)

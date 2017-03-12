@@ -10,25 +10,25 @@ import org.junit.Test;
  * @author SrikarRao.Gandla
  *
  */
-public class PivotIndexTest {
+public class LeftRightSumTest {
 
 	@Test
 	public void test() {
 
 		int[] arrTestcase1 = null;
 		assertEquals("testcase-1: When array is null", -1,
-				PivotIndex.findIndex(arrTestcase1));
+				LeftRightSum.findIndex(arrTestcase1));
 
 		int[] arrTestcase2 = new int[0];
 		assertEquals("testcase-2: When array is empty", -1,
-				PivotIndex.findIndex(arrTestcase2));
+				LeftRightSum.findIndex(arrTestcase2));
 
 		int[] arrTestcase3 = { 1, 2, 3, 4, 0, 6 };
 		assertEquals("testcase-4: When array is having values", 3,
-				PivotIndex.findIndex(arrTestcase3));
+				LeftRightSum.findIndex(arrTestcase3));
 		
 		int[] arrTestcase4 = { 0, 0, 0, 0, 0, 0 };
 		assertEquals("testcase-4: When array is having all zeros", 0,
-				PivotIndex.findIndex(arrTestcase4));
+				LeftRightSum.findIndex(arrTestcase4));
 	}
 }
