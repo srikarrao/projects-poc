@@ -13,5 +13,8 @@ Distributed Caching:
  9. Cache Eviction Policy
  10. H/W Resources
  
- 
+ Notes:
+ 1. Don't Cache the Session States!
+  Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
+ 2. 
  
