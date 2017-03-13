@@ -12,7 +12,7 @@ Arrays:
 Dynamic Programming:
 
 Notes:
-1. Principle of Optimality
+1. Principle of Optimality (Optimal Substructure Solution)
   a. Base cases
   b. Inductive Hypothesis
   c. Inductive Steps
