@@ -15,6 +15,15 @@ Distributed Caching:
  
  Notes:
  1. Don't Cache the Session States!
+    a. Poor design may allow other client sessions to interfere
+    b. Session states are unpredictable with updates should happen frequently
+    c. Caching involves optimized concurrency which means no-concurrency causing long-waits for update.
+    d. Sessions are treated as write-heavy
+    e. The number of stored sessions can increase if several browser instances are opened
+    f. In case of failover, the session is lost and storing it on database would be heavy. 
+    Challenging w.r.t resources if replication is applied as session is primary on the client side during application usage.
+    g. Causes performance degradation halting read operations on the cache server during appending operation.
   Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
+  
  2. 
  
