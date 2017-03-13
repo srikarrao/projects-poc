@@ -10,13 +10,14 @@ Arrays:
 6. Finding distinct, duplicates using '-' flag
 
 Dynamic Programming:
-
 Notes:
 1. Principle of Optimality (Optimal Substructure Solution)
   a. Base cases
   b. Inductive Hypothesis
   c. Inductive Steps
- Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
+  Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
+ 2. Without Optimal Solution
+  Source: https://www.youtube.com/watch?v=MPTBMVLoGmw&index=3&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
  
 1. Knapsack Problem
 2. Making Coins Change
