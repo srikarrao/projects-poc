@@ -1,29 +1,45 @@
-Complexity:
-http://stackoverflow.com/questions/4317414/polynomial-time-and-exponential-time
-http://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/
+                                                    Data Structures and Algorithms
+1.Complexity:
+  a.	O (1)	Function call
+  b.	O(logN)	1 Loop for N with dividend or multiplication growth 
+  c.		O (log (logN))	2 Loops with N with dividend or multiplication growth
+  d.		O (N)	1 Loop for N with linear growth
+  e.		O (N logN)	(4) + (3)
+  f.		O (N^2)	2 Loop for N with linear growth 
+  g.		O (2^N)	Exponential growth by 2 
+  h.		O (N!)	Factorial growth by 1*2*……...*(N-2) *(N-1) *N
+  i.		O (N^3)	3 loops
+  
+  Sources:
+  http://stackoverflow.com/questions/4317414/polynomial-time-and-exponential-time
+  http://www.geeksforgeeks.org/analysis-of-algorithms-set-4-analysis-of-loops/
 
-Arrays:
-1. Sorting (merge, insertion, quick)
-2. Searching (Linear, Binary Serach)
-3. Swapping
-4. Rotating
-5. Max numbers using arbitary variables
-6. Finding distinct, duplicates using '-' flag
+2. Arrays:
+  a. Sorting (merge, insertion, quick)
+  b. Searching (Linear, Binary Serach)
+  c. Swapping
+  d. Rotating
+  e. Max numbers using arbitary variables
+  f. Finding distinct, duplicates using '-' flag
 
-Dynamic Programming:
-Notes:
-1. Principle of Optimality (Optimal Substructure Solution)
-  a. Base cases
-  b. Inductive Hypothesis
-  c. Inductive Steps
-  Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
- 2. Without Optimal Solution
+3. Dynamic Programming:
+   
+   Problems: 
+      1. Knapsack Problem
+      2. Making Coins Change
+      3. Maximum value Continguous Sequence
+      4. Levenshtein Distance
+      5. Traverse 2D Array
+      6. Triangle: Maximum weigh path
+      7. Pretty printing problem
+
+  Notes:
+  I). Principle of Optimality (Optimal Substructure Solution)
+    a. Base cases
+    b. Inductive Hypothesis
+    c. Inductive Steps
+    Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
+ 
+  II). Without Optimal Solution
   Source: https://www.youtube.com/watch?v=MPTBMVLoGmw&index=3&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
  
-1. Knapsack Problem
-2. Making Coins Change
-3. Maximum value Continguous Sequence
-4. Levenshtein Distance
-5. Traverse 2D Array
-6. Triangle: Maximu weigh path
-7. Pretty printing problem
