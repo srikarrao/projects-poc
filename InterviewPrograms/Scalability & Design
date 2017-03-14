@@ -25,5 +25,6 @@ Distributed Caching:
     g. Causes performance degradation halting read operations on the cache server during appending operation.
   Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
   
- 2. 
+ 2. Memcache to Couchbase and vice versa!
+  Source: http://www.shallop.com/blog/couchbase-vs-memcached
  
