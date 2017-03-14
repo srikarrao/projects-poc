@@ -23,8 +23,11 @@ Distributed Caching:
     f. In case of failover, the session is lost and storing it on database would be heavy. 
     Challenging w.r.t resources if replication is applied as session is primary on the client side during application usage.
     g. Causes performance degradation halting read operations on the cache server during appending operation.
-  Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
+   Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
   
  2. Memcache to Couchbase and vice versa! [Memcache vs Couchbase]
   Source: http://www.shallop.com/blog/couchbase-vs-memcached
   Source: https://www.couchbase.com/memcached
+  
+3. How to monitor Memcached?
+  Source: https://blog.serverdensity.com/monitor-memcached/
