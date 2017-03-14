@@ -1,20 +1,40 @@
-https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocols.htm
-https://www.quora.com/Distributed-Systems-What-is-a-simple-explanation-of-the-Paxos-algorithm
+                                           Scalability Lessons
 
-Distributed Caching:
- 1. Consistent Hashing
- 2. Fail-over scenario
- 3. Replication
- 4. Security
- 5. Configuring cache frameworks
- 6. Redis vs Memcached
- 7. Hot/Cold cache
- 8. Frameworks and respective clients
- 9. Cache Eviction Policy
- 10. H/W Resources
+1.	CAP Theorem (Brewer’s Theorem)
+ a.	Consistency: Reads are consistent i.e. accesses recent write
+ b.	Availability: Nodes always available 
+ c.	Partition Tolerance: communication failure among nodes shouldn’t affect the client invocations
+ d.	A max of any two states can be achieved {CA, AP, CP}
+ e.	CA: RDBMS 
+ f.	AP: NoSql
+ g.	CP: Distributed caching, MongoDB, HBase
+ 
+2.	BASE Properties [Source: http://bit.ly/2lQucwl]
+ a.	Basically Available: Guarantees Availability
+ b.	Soft State: The data state can be changed irrespective to the state of the node
+ c.	Eventual Consistency: Doesn’t guarantee immediate consistency (informally acknowledges consistent state)
+ d.	Example would be NoSql
+
+3. 2PC, 3PC Commit protocols:
+  Source: https://www.tutorialspoint.com/distributed_dbms/distributed_dbms_commit_protocols.htm
+
+4.Paxos Algorithm
+  Source: https://www.quora.com/Distributed-Systems-What-is-a-simple-explanation-of-the-Paxos-algorithm
+
+5. Distributed Caching:
+ i. Consistent Hashing
+ ii. Fail-over scenario
+ iii. Replication
+ iv. Security
+ v. Configuring cache frameworks
+ vi. Redis vs Memcached
+ vii. Hot/Cold cache
+ viii. Frameworks and respective clients
+ ix. Cache Eviction Policy
+ x. H/W Resources
  
  Notes:
- 1. Don't Cache the Session States!
+ I). Don't Cache the Session States!
     a. Poor design may allow other client sessions to interfere
     b. Session states are unpredictable with updates should happen frequently
     c. Caching involves optimized concurrency which means no-concurrency causing long-waits for update.
@@ -23,11 +43,12 @@ Distributed Caching:
     f. In case of failover, the session is lost and storing it on database would be heavy. 
     Challenging w.r.t resources if replication is applied as session is primary on the client side during application usage.
     g. Causes performance degradation halting read operations on the cache server during appending operation.
-   Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
+   
+    Source: http://ahuwanya.net/blog/post/Why-Session-State-Should-Not-Be-Stored-In-A-Distributed-Cache
+    
+ II). Memcache to Couchbase and vice versa! [Memcache vs Couchbase]
+    Source: http://www.shallop.com/blog/couchbase-vs-memcached
+    Source: https://www.couchbase.com/memcached
   
- 2. Memcache to Couchbase and vice versa! [Memcache vs Couchbase]
-  Source: http://www.shallop.com/blog/couchbase-vs-memcached
-  Source: https://www.couchbase.com/memcached
-  
-3. How to monitor Memcached?
-  Source: https://blog.serverdensity.com/monitor-memcached/
+III). How to monitor Memcached?
+    Source: https://blog.serverdensity.com/monitor-memcached/
