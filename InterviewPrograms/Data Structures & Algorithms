@@ -35,8 +35,9 @@
 
   Notes:
   I) Introduction:
-    Source: https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old#!n=12
+    Sources: https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old#!n=12
             https://tp-iiita.quora.com/Dynamic-Programming-Part-1
+            https://www.topcoder.com/community/data-science/data-science-tutorials/dynamic-programming-from-novice-to-advanced/
     
   II) Memoization, Tabulation
     Source: http://www.geeksforgeeks.org/dynamic-programming-set-1/
