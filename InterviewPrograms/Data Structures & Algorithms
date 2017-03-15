@@ -2,13 +2,13 @@
 1.Complexity:
   a.	O (1)	Function call
   b.	O(logN)	1 Loop for N with dividend or multiplication growth 
-  c.		O (log (logN))	2 Loops with N with dividend or multiplication growth
-  d.		O (N)	1 Loop for N with linear growth
-  e.		O (N logN)	(4) + (3)
-  f.		O (N^2)	2 Loop for N with linear growth 
-  g.		O (2^N)	Exponential growth by 2 
-  h.		O (N!)	Factorial growth by 1*2*……...*(N-2) *(N-1) *N
-  i.		O (N^3)	3 loops
+  c.	O (log (logN))	2 Loops with N with dividend or multiplication growth
+  d.	O (N)	1 Loop for N with linear growth
+  e.	O (N logN)	(4) + (3)
+  f.	O (N^2)	2 Loop for N with linear growth 
+  g.	O (2^N)	Exponential growth by 2 
+  h.	O (N!)	Factorial growth by 1*2*……...*(N-2) *(N-1) *N
+  i.	O (N^3)	3 loops
   
   Sources:
   http://stackoverflow.com/questions/4317414/polynomial-time-and-exponential-time
