@@ -34,12 +34,14 @@
       7. Pretty printing problem
 
   Notes:
-  I). Principle of Optimality (Optimal Substructure Solution)
+  I) Memoization, Tabulation
+    Source: http://www.geeksforgeeks.org/dynamic-programming-set-1/
+    
+  II). Principle of Optimality (Optimal Substructure Solution)
     a. Base cases
     b. Inductive Hypothesis
     c. Inductive Steps
     Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
  
-  II). Without Optimal Solution
+  III). Without Optimal Solution
   Source: https://www.youtube.com/watch?v=MPTBMVLoGmw&index=3&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
- 
