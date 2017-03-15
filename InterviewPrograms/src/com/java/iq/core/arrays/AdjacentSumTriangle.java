@@ -1,4 +1,4 @@
-package com.java.iq.core.temp.mar13;
+package com.java.iq.core.arrays;
 
 import java.util.*;
 
@@ -28,5 +28,4 @@ public class AdjacentSumTriangle {
 		input.add(new ArrayList<Integer>(Arrays.asList(4, 3, 8, 1)));
 		System.out.println(minimumTotal(input));
 	}
-
 }

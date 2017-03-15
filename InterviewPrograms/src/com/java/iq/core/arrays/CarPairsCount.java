@@ -1,4 +1,4 @@
-package com.java.iq.core.temp.mar13;
+package com.java.iq.core.arrays;
 
 /**
  * Source: http://www.geeksforgeeks.org/count-passing-car-pairs/
