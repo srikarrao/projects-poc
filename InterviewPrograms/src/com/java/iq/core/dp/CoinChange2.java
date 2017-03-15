@@ -1,4 +1,4 @@
-package com.java.iq.core.arrays;
+package com.java.iq.core.dp;
 
 /**
  * You are given coins of different denominations and a total amount of money.
