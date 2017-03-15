@@ -34,14 +34,17 @@
       7. Pretty printing problem
 
   Notes:
-  I) Memoization, Tabulation
+  I) Introduction:
+    Source: https://www.quora.com/How-should-I-explain-dynamic-programming-to-a-4-year-old#!n=12
+    
+  II) Memoization, Tabulation
     Source: http://www.geeksforgeeks.org/dynamic-programming-set-1/
     
-  II). Principle of Optimality (Optimal Substructure Solution)
+  III). Principle of Optimality (Optimal Substructure Solution)
     a. Base cases
     b. Inductive Hypothesis
     c. Inductive Steps
     Source: https://www.youtube.com/watch?v=_zE5z-KZGRw&index=2&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
  
-  III). Without Optimal Solution
+  IV). Without Optimal Solution
   Source: https://www.youtube.com/watch?v=MPTBMVLoGmw&index=3&list=PLyEvk8ZeQDMVbsg7CEfT0NV3s3GkMx1vN
