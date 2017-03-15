@@ -3,7 +3,7 @@
 1.	CAP Theorem (Brewer’s Theorem)
  a.	Consistency: Reads are consistent i.e. accesses recent write
  b.	Availability: Nodes always available 
- c.	Partition Tolerance: communication failure among nodes shouldn’t affect the client invocations
+ c.	Partition Tolerance: communication failure among nodes shouldn't affect the client invocations
  d.	A max of any two states can be achieved {CA, AP, CP}
  e.	CA: RDBMS 
  f.	AP: NoSql
@@ -12,7 +12,7 @@
 2.	BASE Properties [Source: http://bit.ly/2lQucwl]
  a.	Basically Available: Guarantees Availability
  b.	Soft State: The data state can be changed irrespective to the state of the node
- c.	Eventual Consistency: Doesn’t guarantee immediate consistency (informally acknowledges consistent state)
+ c.	Eventual Consistency: Doesn't guarantee immediate consistency (informally acknowledges consistent state)
  d.	Example would be NoSql
 
 3. 2PC, 3PC Commit protocols:
