@@ -1,4 +1,4 @@
-package com.temp.arrays;
+package com.java.iq.core.arrays;
 
 /**
  * Count the number of indices in an array

@@ -1,4 +1,4 @@
-package com.temp.dp;
+package com.java.iq.core.dp;
 
 /* Dynamic Programming Java implementation of LIS problem 
  * Source: http://www.geeksforgeeks.org/dynamic-programming-set-3-longest-increasing-subsequence/
