@@ -1,5 +1,11 @@
 package com.java.iq.core.arrays;
 
+/**
+ * Source: http://www.geeksforgeeks.org/find-local-minima-array/
+ * 
+ * @author SrikarRao
+ *
+ */
 public class LocalMinima {
 
 	public static int localMinUtil(int[] arr, int low, int high, int n) {
