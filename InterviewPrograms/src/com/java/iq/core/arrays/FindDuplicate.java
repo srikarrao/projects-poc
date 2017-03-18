@@ -31,26 +31,4 @@ public class FindDuplicate {
 		return slow;
 	}
 
-private void printRepeating( int arr[], int n)
-{
-    // First check all the values that are
-    // present in an array then go to that
-    // values as indexes and increment by
-    // the size of array
-    for (int i = 0; i < n; i++)
-    {
-        int index = arr[i] % n;
-        arr[index] += n;
-    }
- 
-    // Now check which value exists more
-    // than once by dividing with the size
-    // of array
-    for (int i = 0; i < n; i++)
-    {
-        if ((arr[i]/n) > 1)
-            cout << i << " ";
-    }
-}
-
 }

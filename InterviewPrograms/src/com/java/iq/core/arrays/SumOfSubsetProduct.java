@@ -1,4 +1,4 @@
-package com.temp.arrays;
+package com.java.iq.core.arrays;
 
 /**
  * Source: http://www.geeksforgeeks.org/sum-products-possible-subsets/

@@ -8,7 +8,7 @@ public class DuplicatesInArray {
 
 		for (int x : findDuplicates(new int[] { 4, 3, 2, 7, 8, 2, 3, 1 })) {
 			System.out.println(x);
-		};
+		}
 	}
 
 	/**
@@ -29,4 +29,5 @@ public class DuplicatesInArray {
 		}
 		return res;
 	}
+
 }

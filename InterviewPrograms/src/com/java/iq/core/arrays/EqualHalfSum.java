@@ -1,4 +1,4 @@
-package com.temp.arrays;
+package com.java.iq.core.arrays;
 
 import java.util.*;
 
