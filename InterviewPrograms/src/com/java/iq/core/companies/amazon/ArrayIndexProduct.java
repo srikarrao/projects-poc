@@ -24,8 +24,58 @@ public class ArrayIndexProduct {
 		printArray(productAllOtherValues(input5));
 		int[] input6 = { 1, 2, 3, 50, 0 };
 		printArray(productAllOtherValues(input6));
+		System.out.println("Method-2");
+
+		printArray(productAllOtherValues_spaceless(input1));
+		printArray(productAllOtherValues_spaceless(input2));
+		printArray(productAllOtherValues_spaceless(input3));
+		printArray(productAllOtherValues_spaceless(input4));
+		printArray(productAllOtherValues_spaceless(input5));
+		printArray(productAllOtherValues_spaceless(input6));
 	}
 
+	/**
+	 * Time Complexity: O (N) <br>
+	 * Space Complexity: O (1)
+	 * 
+	 * @param A
+	 * @return
+	 */
+	public static int[] productAllOtherValues_spaceless(int[] A) {
+
+		int zeroCounter = 0;
+		int product = 1;
+
+		for (int i = 0; i < A.length; i++) {
+			if (A[i] == 0) {
+				zeroCounter++;
+				if (zeroCounter > 1) {
+					break;
+				}
+				continue;
+			}
+			product = product * A[i];
+		}
+
+		for (int i = 0; i < A.length; i++) {
+			if (zeroCounter > 1 || (zeroCounter == 1 && A[i] != 0)) {
+				A[i] = 0;
+			} else if (A[i] == 0) {
+				A[i] = product;
+			} else {
+				A[i] = product / A[i];
+			}
+		}
+		return A;
+	}
+
+	/**
+	 * Time Complexity: O (N)<br>
+	 * Space Complexity: O (N)
+	 * 
+	 * @param A
+	 * @return
+	 */
 	public static int[] productAllOtherValues(int[] A) {
 
 		int[] res = new int[A.length];

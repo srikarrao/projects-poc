@@ -15,11 +15,13 @@ public class DisappearedNumbers {
 
 	public static void main(String[] args) {
 
-		int[] A = { 4, 3, 2, 8,7, 2, 3, 1 };
+		int[] A = { 4, 3, 2, 8, 7, 2, 3, 1 };
 		List<Integer> res = findDisappearedNumbers(A);
 		for (Integer i : res) {
 			System.out.print(i + " ");
 		}
+		System.out.println();
+		printRepeating();
 	}
 
 	public static List<Integer> findDisappearedNumbers(int[] nums) {
@@ -38,5 +40,19 @@ public class DisappearedNumbers {
 			}
 		}
 		return ret;
+	}
+
+	private static void printRepeating() {
+		int arr[] = { 4, 2, 4, 5, 2, 3, 1 };
+		int i = 0;
+		int size = arr.length;
+		System.out.println("The repeating elements are : ");
+
+		for (i = 0; i < size; i++) {
+			if (arr[Math.abs(arr[i])] > 0)
+				arr[Math.abs(arr[i])] = -arr[Math.abs(arr[i])];
+			else
+				System.out.print(Math.abs(arr[i]) + " ");
+		}
 	}
 }

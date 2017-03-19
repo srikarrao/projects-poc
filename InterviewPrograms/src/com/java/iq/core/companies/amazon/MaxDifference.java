@@ -3,6 +3,10 @@ package com.java.iq.core.companies.amazon;
 /**
  * Given an array, find the maximum difference between two array elements given
  * the second element comes after the first
+ *
+ * Source: http://www.geeksforgeeks.org/maximum-difference-between-two-elements/ <br>
+ * Space Complexity: O (1) <br>
+ * Time Complexity: O (N)
  * 
  * @author SrikarRao.Gandla
  *
