@@ -1,6 +1,9 @@
 package com.java.iq.core.companies.amazon;
 
-// A Java program to print topological sorting of a DAG
+/**
+ * Source: http://www.geeksforgeeks.org/topological-sorting/ <br>
+ *  Time Complexity: O (V + E)
+ */
 import java.util.*;
 
 public class TopologicalSort {
