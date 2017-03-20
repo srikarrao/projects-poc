@@ -43,6 +43,8 @@
       1.3 Travelling Salesman Problem
   j. Bipartie Validation
   k. Maze Puzzles
+  l. Max Flow Problem (Single-Sink Flow)
+    1. Dinic's Algorithm
 
 4. Dynamic Programming:
    Problems: 
