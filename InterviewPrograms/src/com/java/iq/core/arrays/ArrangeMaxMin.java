@@ -3,7 +3,9 @@ package com.java.iq.core.arrays;
 /**
  * Source:
  * http://www.geeksforgeeks.org/rearrange-array-maximum-minimum-form-set-
- * 2-o1-extra-space/
+ * 2-o1-extra-space/ <br>
+ * Time Complexity: O (N)<br>
+ * Space Complexity: O (1)
  * 
  * @author srikarrao.gandla
  *

@@ -14,18 +14,13 @@ public class ArrayType {
 		return (a > b) ? a : b;
 	}
 
-	// Function to find the type of an array
-	// and maximum element in it
 	private static void findArrayType(int arr[]) {
 		int n = arr.length;
 		int i = 0;
 
-		// Check if the array is in ascending order
 		while (i < n - 1 && arr[i] < arr[i + 1])
 			i++;
 
-		// If i reaches to last index that means
-		// all elements are in increasing order
 		if (i == n - 1) {
 			System.out
 					.println("Ascending with maximum element = " + arr[n - 1]);

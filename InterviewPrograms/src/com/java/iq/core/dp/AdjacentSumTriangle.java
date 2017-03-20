@@ -1,9 +1,11 @@
-package com.java.iq.core.arrays;
+package com.java.iq.core.dp;
 
 import java.util.*;
 
 /**
- * Source: https://leetcode.com/problems/triangle/#/description
+ * Source: https://leetcode.com/problems/triangle/#/description <br>
+ * Time Complexity: O (N ^ 2) <br>
+ * Space Complexity: O (N)
  * 
  * @author SrikarRao.Gandla
  *

@@ -30,29 +30,24 @@ public class AreConsecutive {
 			for (i = 0; i < n; i++) {
 				int j;
 
-				if (arr[i] < 0)
+				if (arr[i] < 0) {
 					j = -arr[i] - min;
-				else
+				} else {
 					j = arr[i] - min;
+				}
 
-				// if the value at index j is negative then
-				// there is repitition
-				if (arr[j] > 0)
+				if (arr[j] > 0) {
 					arr[j] = -arr[j];
-				else
+				} else {
 					return false;
+				}
 			}
 
-			/*
-			 * If we do not see a negative value then all elements are distinct
-			 */
 			return true;
 		}
-
-		return false; // if (max-min+1 != n)
+		return false;
 	}
 
-	/* UTILITY FUNCTIONS */
 	int getMin(int arr[], int n) {
 		int min = arr[0];
 		for (int i = 1; i < n; i++) {
