@@ -22,8 +22,28 @@
   e. Max numbers using arbitary variables
   f. Finding distinct, duplicates using '-' flag
 
-3. Dynamic Programming:
-   
+3. Graphs:
+  a. Types of Graphs
+  b. Complexity Analysis
+  c. DFS
+  d. BFS
+  e. Topological Sort
+  f. Cycle Detection Algorithm
+  g. Stongly Connected Components
+    1. Kasaraju's Algorithm
+    2. Tarjan's Algorithm
+  h. Minimum Spanning Tree
+    1. Borvuka's Algorithm
+    2. Prim's Algorithm
+    3. Kruskal's Algorithm
+  i. Path Finding
+    1. Shortest Path
+      1.1 Floyd-Warshall algorithm 
+      1.2 Djikstra's algorithm 
+      1.3 Travelling Salesman Problem
+  j. Bipartie Validation
+
+4. Dynamic Programming:
    Problems: 
       1. Knapsack Problem
       2. Making Coins Change
