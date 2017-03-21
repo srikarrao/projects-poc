@@ -1,4 +1,4 @@
-package com.temp.dp;
+package com.java.iq.core.dp;
 
 /**
  * Source: http://www.geeksforgeeks.org/dynamic-programming-set-6-min-cost-path/ <br>
