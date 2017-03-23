@@ -1,5 +1,12 @@
 package com.java.iq.core.arrays;
 
+/**
+ * Time Complexity: O (N) <br>
+ * Space Complexity: O (1)
+ * 
+ * @author SrikarRao
+ *
+ */
 public class SecondLargest {
 
 	public static void main(String args[]) {

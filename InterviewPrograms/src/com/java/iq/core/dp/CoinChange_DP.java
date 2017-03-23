@@ -1,4 +1,4 @@
-package com.temp.dp;
+package com.java.iq.core.dp;
 
 import java.util.Arrays;
 

@@ -1,4 +1,4 @@
-package com.temp.graphs;
+package com.java.iq.core.graphs;
 
 import java.util.*;
 
