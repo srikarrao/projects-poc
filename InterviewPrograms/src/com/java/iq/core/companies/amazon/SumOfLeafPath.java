@@ -23,13 +23,25 @@ public class SumOfLeafPath {
 		int min_no = Integer.MAX_VALUE;
 	}
 
+	static class MinMax {
+		private int min;
+		private int max;
+		private Node node;
+
+		public MinMax(int min, int max, Node node) {
+			this.min = min;
+			this.max = max;
+			this.node = node;
+		}
+	}
+
 	static class BinaryTree {
 		Node root;
 		MaxMin maxMin = new MaxMin();
 		Node target_min_leaf = null;
 		Node target_max_leaf = null;
 
-		boolean printPath(Node node, Node target_leaf) {
+		private boolean printPath(Node node, Node target_leaf) {
 			if (node == null)
 				return false;
 
@@ -41,12 +53,12 @@ public class SumOfLeafPath {
 			return false;
 		}
 
-		void getMaxTargetLeaf(Node node, MaxMin max_sum_ref, int curr_sum) {
+		private void getMaxTargetLeaf(Node node, MaxMin max_sum_ref,
+				int curr_sum) {
 			if (node == null)
 				return;
 
 			curr_sum = curr_sum + node.data;
-
 			if (node.left == null && node.right == null) {
 				if (curr_sum > max_sum_ref.max_no) {
 					max_sum_ref.max_no = curr_sum;
@@ -54,17 +66,14 @@ public class SumOfLeafPath {
 				}
 
 			}
-
 			getMaxTargetLeaf(node.left, max_sum_ref, curr_sum);
 			getMaxTargetLeaf(node.right, max_sum_ref, curr_sum);
 		}
 
-		void getMinTargetLeaf(Node node, MaxMin sum_ref, int curr_sum) {
+		private void getMinTargetLeaf(Node node, MaxMin sum_ref, int curr_sum) {
 			if (node == null)
 				return;
-
 			curr_sum = curr_sum + node.data;
-
 			if (node.left == null && node.right == null) {
 
 				if (curr_sum < sum_ref.min_no) {
@@ -77,7 +86,7 @@ public class SumOfLeafPath {
 			getMinTargetLeaf(node.right, sum_ref, curr_sum);
 		}
 
-		MaxMin sumPath() {
+		private MaxMin sumPath() {
 			if (root == null)
 				return maxMin;
 
@@ -89,20 +98,41 @@ public class SumOfLeafPath {
 			printPath(root, target_max_leaf);
 			return maxMin;
 		}
+
+		/**
+		 * Optimized Result
+		 * 
+		 * @param tree
+		 * @return
+		 */
+		private MinMax findMinMax(Node tree) {
+			if (tree == null) {
+				return new MinMax(0, 0, null);
+			}
+
+			MinMax left = findMinMax(tree.left);
+			MinMax right = findMinMax(tree.right);
+			MinMax res = new MinMax(Math.min(left.min + tree.data, right.min
+					+ tree.data), Math.max(left.max + tree.data, right.max
+					+ tree.data), tree);
+
+			return res;
+		}
 	}
 
 	public static void main(String args[]) {
 		BinaryTree tree = new BinaryTree();
-		tree.root = new Node(10);
-		tree.root.left = new Node(-2);
-		tree.root.right = new Node(7);
-		tree.root.left.left = new Node(8);
-		tree.root.left.right = new Node(-4);
+		tree.root = new Node(-100);
+		tree.root.left = new Node(102);
+		tree.root.right = new Node(17);
+		tree.root.left.left = new Node(-18);
+		tree.root.left.right = new Node(664);
 		System.out.println("Following are the nodes " + "on max-min sum path");
-		MaxMin maxMin = tree.sumPath();
+		MinMax res = tree.findMinMax(tree.root);
+		System.out.println(res.max + "::" + res.min);
 		System.out.println("");
+		MaxMin maxMin = tree.sumPath();
 		System.out.println("Max Sum of nodes is : " + maxMin.max_no);
 		System.out.println("Min Sum of nodes is : " + maxMin.min_no);
 	}
-
 }
