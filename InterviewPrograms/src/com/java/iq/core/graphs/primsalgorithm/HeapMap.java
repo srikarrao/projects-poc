@@ -4,9 +4,9 @@ import java.util.*;
 
 public class HeapMap {
 
-	static class WeightedVertex {
-		String vertexKey;
-		int weight;
+	public static class WeightedVertex {
+		public String vertexKey;
+		public int weight;
 
 		public WeightedVertex(String vertexKey, int weight) {
 			this.vertexKey = vertexKey;
@@ -14,7 +14,7 @@ public class HeapMap {
 		}
 	}
 
-	private static class MapComparator implements Comparator<WeightedVertex> {
+	public static class MapComparator implements Comparator<WeightedVertex> {
 
 		@Override
 		public int compare(WeightedVertex o1, WeightedVertex o2) {
@@ -22,10 +22,10 @@ public class HeapMap {
 		}
 	}
 
-	private Map<String, WeightedVertex> vertexMap;
-	private PriorityQueue<WeightedVertex> minHeap;
-	private List<String> vertices;
-	private static final MapComparator MAP_COMP = new MapComparator();
+	public Map<String, WeightedVertex> vertexMap;
+	public PriorityQueue<WeightedVertex> minHeap;
+	public List<String> vertices;
+	public static final MapComparator MAP_COMP = new MapComparator();
 
 	public HeapMap(List<String> V) {
 		minHeap = new PriorityQueue<WeightedVertex>(16, MAP_COMP);
@@ -71,6 +71,10 @@ public class HeapMap {
 		HeapMap map = new HeapMap(vertices);
 		System.out.println(map.isEmpty());
 		System.out.println(map.getMinVertex().vertexKey);
-
+		map.minHeap.add(new WeightedVertex("X", -100));
+		map.minHeap.peek().weight++;
+		WeightedVertex t = map.getMinVertex();
+		System.out.println(t.vertexKey);
+		System.out.println(t.weight);
 	}
 }

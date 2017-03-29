@@ -41,6 +41,8 @@ public class PrimsAlgorithm {
 		HeapMap heapMap = new HeapMap(graph.getVertices());
 
 		while (!heapMap.isEmpty()) {
+			System.out.println(heapMap.minHeap.peek().vertexKey + " "
+					+ heapMap.minHeap.peek().weight);
 			WeightedVertex src = heapMap.getMinVertex(); // A
 			List<String> tempAdj = graph.getAdjVertices(src.vertexKey); // D,B,C
 
