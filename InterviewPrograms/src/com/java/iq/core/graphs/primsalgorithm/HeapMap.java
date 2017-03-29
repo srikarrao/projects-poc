@@ -1,14 +1,14 @@
-package com.temp.graphs;
+package com.java.iq.core.graphs.primsalgorithm;
 
 import java.util.*;
 
 public class HeapMap {
 
 	static class WeightedVertex {
-		int vertexKey;
+		String vertexKey;
 		int weight;
 
-		public WeightedVertex(int vertexKey, int weight) {
+		public WeightedVertex(String vertexKey, int weight) {
 			this.vertexKey = vertexKey;
 			this.weight = weight;
 		}
@@ -22,14 +22,14 @@ public class HeapMap {
 		}
 	}
 
-	private Map<Integer, WeightedVertex> vertexMap;
+	private Map<String, WeightedVertex> vertexMap;
 	private PriorityQueue<WeightedVertex> minHeap;
-	private List<Integer> vertices;
+	private List<String> vertices;
 	private static final MapComparator MAP_COMP = new MapComparator();
 
-	public HeapMap(List<Integer> V) {
-		minHeap = new PriorityQueue<WeightedVertex>(MAP_COMP);
-		vertexMap = new HashMap<Integer, WeightedVertex>();
+	public HeapMap(List<String> V) {
+		minHeap = new PriorityQueue<WeightedVertex>(16, MAP_COMP);
+		vertexMap = new HashMap<String, WeightedVertex>();
 		this.vertices = V;
 
 		WeightedVertex temp = new WeightedVertex(vertices.get(0), 0);
@@ -43,14 +43,15 @@ public class HeapMap {
 		}
 	}
 
-	public void add(Integer key, WeightedVertex value) {
+	public void add(String key, WeightedVertex value) {
 		vertexMap.put(key, value);
 	}
 
-	public WeightedVertex getVertex(Integer key){
+	public WeightedVertex getVertex(String key) {
 		return vertexMap.get(key);
 	}
-	public boolean containsKey(Integer VKey) {
+
+	public boolean containsKey(String VKey) {
 		return vertexMap.containsKey(VKey);
 	}
 
@@ -63,11 +64,10 @@ public class HeapMap {
 		vertexMap.remove(temp.vertexKey);
 		return temp;
 	}
-	
 
 	public static void main(String[] args) {
-		List<Integer> vertices = new ArrayList<Integer>(Arrays.asList(0, 1, 2,
-				3));
+		List<String> vertices = new ArrayList<String>(Arrays.asList("A", "B",
+				"C", "D"));
 		HeapMap map = new HeapMap(vertices);
 		System.out.println(map.isEmpty());
 		System.out.println(map.getMinVertex().vertexKey);

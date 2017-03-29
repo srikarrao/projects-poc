@@ -1,15 +1,15 @@
-package com.temp.graphs;
+package com.java.iq.core.graphs.primsalgorithm;
 
 import java.util.*;
 
 public class Graph {
 
 	public static class Edge {
-		int source;
-		int destination;
+		String source;
+		String destination;
 		int weight;
 
-		public Edge(int source, int destination, int weight) {
+		public Edge(String source, String destination, int weight) {
 			this.source = source;
 			this.destination = destination;
 			this.weight = weight;
@@ -22,22 +22,22 @@ public class Graph {
 		}
 	}
 
-	private List<Integer> vertices;
+	private List<String> vertices;
 	private List<Edge> edges;
-	private List<List<Integer>> adjVertices;
+	private Map<String, List<String>> adjVertices;
 
-	public int getWeight(int s, int d) {
+	public int getWeight(String s, String d) {
 		for (Edge e : edges) {
-			if (e.source == s && e.destination == d) {
+			if (e.source.equals(s) && e.destination.equals(d)) {
 				return e.weight;
 			}
 		}
 		return Integer.MAX_VALUE;
 	}
 
-	public Edge getEdge(int s, int d) {
+	public Edge getEdge(String s, String d) {
 		for (Edge e : edges) {
-			if (e.source == s && e.destination == d) {
+			if (e.source.equals(s) && e.destination.equals(d)) {
 				return e;
 			}
 		}
@@ -45,27 +45,30 @@ public class Graph {
 	}
 
 	public Graph(int V, int E) {
-		vertices = new ArrayList<Integer>(V);
-		adjVertices = new ArrayList<List<Integer>>(V);
+		vertices = new ArrayList<String>(V);
+		adjVertices = new HashMap<String, List<String>>();
 		edges = new ArrayList<Edge>(E);
-
 		for (int i = 0; i < V; i++) {
-			vertices.add(i);
-			adjVertices.add(new ArrayList<Integer>());
+			int val = 'A' + i;
+			char ch = (char) val;
+			StringBuilder sb = new StringBuilder(ch + "");
+			vertices.add(sb.toString());
+			adjVertices.put(sb.toString(), new ArrayList<String>());
 		}
 
 	}
 
-	public void addEdge(int src, int dest, int weight) {
+	public void addEdge(String src, String dest, int weight) {
 		edges.add(new Edge(src, dest, weight));
 		adjVertices.get(src).add(dest);
+
 	}
 
-	public List<Integer> getVertices() {
+	public List<String> getVertices() {
 		return vertices;
 	}
 
-	public void setVertices(List<Integer> vertices) {
+	public void setVertices(List<String> vertices) {
 		this.vertices = vertices;
 	}
 
@@ -77,11 +80,8 @@ public class Graph {
 		this.edges = edges;
 	}
 
-	public List<List<Integer>> getAdjVertices() {
-		return adjVertices;
+	public List<String> getAdjVertices(String key) {
+		return adjVertices.get(key);
 	}
 
-	public void setAdjVertices(List<List<Integer>> adjVertices) {
-		this.adjVertices = adjVertices;
-	}
 }
