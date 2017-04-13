@@ -77,7 +77,6 @@ public class ClosestElement {
 				element = right.element;
 			}
 		}
-
 		return new MinElement(element, finalAbsDiff);
 	}
 }
