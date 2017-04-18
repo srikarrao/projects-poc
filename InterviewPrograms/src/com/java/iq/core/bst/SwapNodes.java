@@ -3,7 +3,9 @@ package com.java.iq.core.bst;
 import java.util.*;
 
 /**
- * Java Program to swap nodes in a binary search tree
+ * Java Program to swap nodes in a binary search tree <br>
+ * Space: O (2 ^ K) i.e. K is level <br>
+ * Time: O (((2 ^ K) - 1)+ (2 ^ (K-1)))
  * 
  * @author SrikarRao
  *
@@ -11,39 +13,34 @@ import java.util.*;
 public class SwapNodes {
 
 	public static void main(String[] args) {
-		swappingNodes(createTree3(), getTestcases());
+		swappingNodes(createTree3(), 2);
 	}
 
-	private static int[] getTestcases() {
-		int[] testcases = { 0, 1, 2 };
-		return testcases;
-	}
-
-	private static void swappingNodes(Node<Integer> root, int[] testcases) {
+	private static void swappingNodes(Node<Integer> root, int K) {
 		System.out.println("Before swapping!!");
 		printInorder(root);
 		System.out.println();
 
 		Queue<Node<Integer>> Q = new LinkedList<Node<Integer>>();
-		for (int i = 0; i < testcases.length; i++) {
-			if (testcases[i] > 0) {
-				Q.add(root);
-				int x = 1;
-				while (x++ < (Math.pow(2, testcases[i]) / 2)
-						&& Q.peek() != null) {
-					Node<Integer> temp = Q.remove();
-					Q.add(temp.left);
-					Q.add(temp.right);
-				}
-
-				while (!Q.isEmpty()) {
-					swap(Q.remove());
-				}
+		Q.add(root);
+		int x = 1;
+		while (x++ < (Math.pow(2, K) / 2)) {
+			Node<Integer> temp = Q.remove();
+			if (temp.left != null) {
+				Q.add(temp.left);
 			}
-			System.out.println("After testcase " + i + ":");
-			printInorder(root);
-			System.out.println();
+
+			if (temp.right != null) {
+				Q.add(temp.right);
+			}
+
 		}
+
+		while (!Q.isEmpty()) {
+			swap(Q.remove());
+		}
+		printInorder(root);
+		System.out.println();
 	}
 
 	private static void swap(Node<Integer> node) {
@@ -117,16 +114,16 @@ public class SwapNodes {
 
 	private static Node<Integer> createTree2() {
 
-		Node<Integer> N6 = new Node<Integer>(5);
-		Node<Integer> N4 = new Node<Integer>(4);
+		Node<Integer> N4 = new Node<Integer>(5);
+		Node<Integer> N3 = new Node<Integer>(4);
 		Node<Integer> N2 = new Node<Integer>(3);
 		Node<Integer> N1 = new Node<Integer>(2);
 
 		N1.left = null;
-		N1.right = N4;
+		N1.right = N3;
 
 		N2.left = null;
-		N2.right = N6;
+		N2.right = N4;
 
 		Node<Integer> root = new Node<Integer>(1);
 		root.left = N1;
