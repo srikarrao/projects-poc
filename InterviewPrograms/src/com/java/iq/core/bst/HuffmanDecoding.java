@@ -1,5 +1,14 @@
 package com.java.iq.core.bst;
 
+/**
+ * Source: https://www.hackerrank.com/challenges/tree-huffman-decoding <br>
+ * Reference: http://people.cs.pitt.edu/~kirk/cs1501/animations/Huffman.html <br>
+ * Time: O (N logn) <br>
+ * Space: O(1)
+ * 
+ * @author SrikarRao
+ *
+ */
 public class HuffmanDecoding {
 
 	public static void decode(String S, Node<String> root) {
