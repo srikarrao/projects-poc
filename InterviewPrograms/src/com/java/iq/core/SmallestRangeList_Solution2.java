@@ -65,7 +65,7 @@ public class SmallestRangeList_Solution2 {
 
 		}
 
-		while (true) {
+		while (heap.size() == k) {
 			MinHeapNode root = heap.peek();
 			min = root.element;
 
@@ -82,8 +82,6 @@ public class SmallestRangeList_Solution2 {
 				heap.add(root);
 				if (root.element > max)
 					max = root.element;
-			} else {
-				break;
 			}
 
 		}
