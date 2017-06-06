@@ -11,6 +11,25 @@ import java.util.*;
  */
 public class SubArraySum {
 
+	/*
+	 * Naive process O (N ^ 2)
+	 */
+	private static void getSubArrays_bruteForce(int[] arr) {
+
+		List<Pair> pairs = new ArrayList<Pair>();
+		for (int i = 0; i < arr.length - 1; i++) {
+			int sum = arr[i];
+			for (int j = i + 1; j < arr.length; j++) {
+				sum += arr[j];
+				if (sum == 0) {
+					pairs.add(new Pair(i, j));
+				}
+			}
+		}
+
+		print(pairs);
+	}
+
 	private static class Pair {
 		int start;
 		int end;
@@ -30,6 +49,9 @@ public class SubArraySum {
 			System.out.println("No subarray exists");
 		else
 			print(out);
+
+		System.out.println("Brute Force:");
+		getSubArrays_bruteForce(arr);
 	}
 
 	private static void print(List<Pair> out) {
