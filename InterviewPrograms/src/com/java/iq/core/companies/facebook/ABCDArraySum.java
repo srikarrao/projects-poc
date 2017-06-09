@@ -3,6 +3,12 @@ package com.java.iq.core.companies.facebook;
 import java.util.*;
 import java.util.Map.Entry;
 
+/**
+ * Source: https://www.careercup.com/question?id=5652354158297088 <br>
+ * 
+ * @author srikarrao
+ *
+ */
 public class ABCDArraySum {
 
 	static class Indices {
@@ -30,8 +36,7 @@ public class ABCDArraySum {
 	public static void main(String[] args) {
 		Result res = getIndices(new int[] { 3, 4, 7, 1, 2, 9, 8 });
 		System.out.println("Sum Obtained: " + res.sum);
-		System.out.println("Indices: (" + res.AB.x + "," + res.AB.y + ")("
-				+ res.CD.x + "," + res.CD.y + ")");
+		System.out.println("Indices: (" + res.AB.x + "," + res.AB.y + ")(" + res.CD.x + "," + res.CD.y + ")");
 
 	}
 
@@ -60,8 +65,7 @@ public class ABCDArraySum {
 			Entry<Integer, List<Indices>> val = iter.next();
 			if (val.getValue().size() >= 2) {
 				res = new Result(val.getValue().get(0), val.getValue().get(1),
-						arr[val.getValue().get(0).x]
-								+ arr[val.getValue().get(0).y]);
+						arr[val.getValue().get(0).x] + arr[val.getValue().get(0).y]);
 				break;
 			}
 		}

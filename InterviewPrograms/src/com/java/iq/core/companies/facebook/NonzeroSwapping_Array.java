@@ -3,7 +3,8 @@ package com.java.iq.core.companies.facebook;
 import java.util.Arrays;
 
 /**
- * Java program to shift zeros to left and non-zeros to right
+ * Java program to shift zeros to left and non-zeros to right <br>
+ * Source: http://www.geeksforgeeks.org/move-zeroes-end-array/ <br>
  * 
  * @author SrikarRao.Gandla
  *
@@ -47,8 +48,7 @@ public class NonzeroSwapping_Array {
 				rear--;
 			}
 
-			if (front < rear && !(arr[front] == 0 && arr[rear] == 0)
-					&& !(arr[front] != 0 && arr[rear] != 0))
+			if (front < rear && !(arr[front] == 0 && arr[rear] == 0) && !(arr[front] != 0 && arr[rear] != 0))
 				swap(arr, front, rear);
 
 		}
