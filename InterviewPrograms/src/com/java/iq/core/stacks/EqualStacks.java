@@ -1,5 +1,10 @@
 package com.java.iq.core.stacks;
 
+/**
+ * Source: https://www.hackerrank.com/challenges/equal-stacks <br>
+ * @author srikarrao
+ *
+ */
 public class EqualStacks {
 
 	public static void main(String[] args) {

@@ -2,6 +2,12 @@ package com.java.iq.core.stacks;
 
 import java.util.*;
 
+/**
+ * Source: https://www.hackerrank.com/challenges/poisonous-plants <br>
+ * 
+ * @author srikarrao
+ *
+ */
 public class PoisonousPlants {
 
 	public static void main(String[] args) {
@@ -23,8 +29,7 @@ public class PoisonousPlants {
 
 			while (!s.empty() && p[s.peek()] >= p[i]) {
 				if (p[i] > min)
-					days[i] = days[i] > days[s.peek()] + 1 ? days[i] : days[s
-							.peek()] + 1;
+					days[i] = days[i] > days[s.peek()] + 1 ? days[i] : days[s.peek()] + 1;
 				s.pop();
 			}
 

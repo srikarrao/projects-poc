@@ -2,6 +2,12 @@ package com.java.iq.core.stacks;
 
 import java.util.*;
 
+/**
+ * Source: https://www.hackerrank.com/challenges/simple-text-editor <br>
+ * 
+ * @author srikarrao
+ *
+ */
 public class SimpleTextEditor {
 
 	public static void main(String[] args) {
