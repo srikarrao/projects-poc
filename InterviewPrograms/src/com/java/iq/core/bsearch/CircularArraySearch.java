@@ -5,13 +5,20 @@ import org.junit.Assert;
 public class CircularArraySearch {
 
 	public static void main(String[] args) {
-		Assert.assertEquals(2, search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 550));
-		Assert.assertEquals(0, search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 378));
-		Assert.assertEquals(9, search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 368));
-		Assert.assertEquals(0, search(new int[] { 378, 478 }, 0, 1, 378));
-		Assert.assertEquals(1, search(new int[] { 378, 478 }, 0, 1, 478));
-		Assert.assertEquals(0, search(new int[] { 478 }, 0, 0, 478));
-		Assert.assertEquals(-1, search(new int[] { 111 }, 0, 0, 478));
+		Assert.assertEquals("Null array", -1, search(null, 0, 9, 550));
+		Assert.assertEquals("Empty array", -1, search(new int[] {}, 0, 9, 550));
+		Assert.assertEquals("Random Index", 2,
+				search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 550));
+		Assert.assertEquals("Middle Index", 4,
+				search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 103));
+		Assert.assertEquals("Index zero", 0,
+				search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 378));
+		Assert.assertEquals("Index Array.length - 1", 9,
+				search(new int[] { 378, 478, 550, 631, 103, 203, 220, 234, 279, 368 }, 0, 9, 368));
+		Assert.assertEquals("Array length 2, Index 0", 0, search(new int[] { 378, 478 }, 0, 1, 378));
+		Assert.assertEquals("Array Length 2, Index 1", 1, search(new int[] { 378, 478 }, 0, 1, 478));
+		Assert.assertEquals("Array Length 1. Found!", 0, search(new int[] { 478 }, 0, 0, 478));
+		Assert.assertEquals("Array Length 1. Not Found!", -1, search(new int[] { 111 }, 0, 0, 478));
 	}
 
 	private static int search(int[] array, int low, int high, int searchNumber) {
