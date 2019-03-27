@@ -1,4 +1,4 @@
-package com.java.iq.core.arrays;
+package com.java.iq.core.strings;
 
 import java.util.*;
 
