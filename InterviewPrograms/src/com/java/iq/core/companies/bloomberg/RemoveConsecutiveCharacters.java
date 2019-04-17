@@ -9,14 +9,24 @@ package com.java.iq.core.companies.bloomberg;
 public class RemoveConsecutiveCharacters {
 
 	public static void main(String[] args) {
-		System.out.println("Null: " + removeCharacters(null, 10));
 		System.out.println("ABCD: " + removeCharacters("ABCD", 1));
+		System.out.println("ABCD: " + removeCharacters("ABCD", 2));
+		System.out.println("ABDCD: " + removeCharacters("ABDCD", 2));
+		System.out.println("AADCCD: " + removeCharacters("AADCCD", 2));
+		
 		System.out.println("ABCCCBBA: " + removeCharacters("ABCCCBBA", 3));
+		System.out.println("ABCCCBBA: " + removeCharacters("ABCCCBBA", 10));
+		
 		System.out.println("ABCCCCBBA: " + removeCharacters("ABCCCCBBA", 3));
 		System.out.println("ABCCCCCCBBA: " + removeCharacters("ABCCCCCCBBA", 3));
 		System.out.println("CCCCCCBBA: " + removeCharacters("CCCCCCBBA", 3));
+		
 		System.out.println("CCCCBBA: " + removeCharacters("CCCCBBA", 3));
+		System.out.println("CCCCBBA: " + removeCharacters("CCCCBBA", 2));
+		
 		System.out.println("BBACCCCCC: " + removeCharacters("BBACCCCCC", 3));
+		System.out.println("BBACCCCCC: " + removeCharacters("BBACCCCCC", 2));
+		
 		System.out.println("BBBCCCCCC: " + removeCharacters("BBBCCCCCC", 3));
 		System.out.println("BBBCCCCCC: " + removeCharacters("BBBCCCCCC", 2));
 
