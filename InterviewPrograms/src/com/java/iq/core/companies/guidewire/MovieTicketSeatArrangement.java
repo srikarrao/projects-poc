@@ -18,14 +18,14 @@ public class MovieTicketSeatArrangement {
 		int rows = N;
 		boolean[][] seatMap = new boolean[rows][seatsInEachRow];
 
-		if (S == null || S.trim().isBlank() || S.trim().isEmpty()) {
+		if (S == null || S.trim().isEmpty() || S.trim().isEmpty()) {
 			return rows * 3;
 		}
 
 		String[] seats = S.trim().split("\\s+");
 
 		for (String seat : seats) {
-			if (!seat.isEmpty() && !seat.isBlank() && (seat.length() > 1)) {
+			if (!seat.isEmpty() && isBlank(seat) && (seat.length() > 1)) {
 
 				int[] rowCol = findRowCol(seat);
 				if (rowCol[0] != -1 && rowCol[0] < N && rowCol[1] != -1 && rowCol[1] < 10) {
@@ -115,5 +115,13 @@ public class MovieTicketSeatArrangement {
 		rowCol[1] = colNumber;
 
 		return rowCol;
+	}
+
+	private boolean isBlank(String s) {
+		int i = 0;
+		while (i < s.length() && s.charAt(i) != ' ') {
+			i++;
+		}
+		return i == s.length();
 	}
 }
