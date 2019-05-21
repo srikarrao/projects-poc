@@ -63,7 +63,7 @@ public class CarDataCache {
 		System.out.println();
 	}
 
-	public static void main(String[] args) {
+	public static void main2(String[] args) {
 		CarDataCache cache = new CarDataCache();
 		cache.put("VAADR17891022KL", new CarData("VAADR17891022KL"));
 		cache.print();
@@ -81,6 +81,23 @@ public class CarDataCache {
 		cache.print();
 		// cache.get("CAZDR178M5167");
 		// cache.print();
+	}
+
+	public static void main(String[] args) {
+
+		DoublyLinkedList doubleLinkedList = new DoublyLinkedList();
+
+		doubleLinkedList.insert(new Node("First"));
+		doubleLinkedList.insert(new Node("Second"));
+		doubleLinkedList.insert(new Node("Third"));
+		doubleLinkedList.insert(new Node("Fourth"));
+		doubleLinkedList.insert(new Node("Fifth"));
+
+		System.out.println("Original LinkedList");
+		doubleLinkedList.print();
+
+		System.out.println("Reversed LinkedList");
+		doubleLinkedList.printReverse();
 	}
 
 	static class CarData {
@@ -173,6 +190,32 @@ public class CarDataCache {
 			return true;
 		}
 
+		public Node revereLinkedList() {
+			Node reversedHead = null;
+
+			Node curr = head;
+			Node newTail = head;
+
+			while (curr != null) {
+				Node temp = curr;
+				curr = curr.next;
+				if (reversedHead != null) {
+					reversedHead.prev = temp;
+				}
+				temp.next = reversedHead;
+				reversedHead = temp;
+			}
+
+			if (reversedHead != null) {
+				reversedHead.prev = null;
+			}
+
+			tail = newTail;
+			head = reversedHead;
+
+			return reversedHead;
+		}
+
 		public void print() {
 			Node temp = head;
 			System.out.print("X");
@@ -182,5 +225,11 @@ public class CarDataCache {
 			}
 			System.out.println("X");
 		}
+
+		public void printReverse() {
+			this.revereLinkedList();
+			print();
+		}
+
 	}
 }
