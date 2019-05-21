@@ -85,6 +85,31 @@ public class CarDataCache {
 
 	public static void main(String[] args) {
 
+		DoublyLinkedList doubleLinkedList = getDoublyLinkedList();
+		System.out.println("Original LinkedList");
+		doubleLinkedList.print();
+
+		System.out.println("Reversed LinkedList");
+		doubleLinkedList.printReverse();
+
+		System.out.println("Reversed Head: " + doubleLinkedList.head);
+		System.out.println("Reversed Tail: " + doubleLinkedList.tail);
+
+		System.out.println("#######################");
+
+		DoublyLinkedList recursiveDoublyLinkedList = getDoublyLinkedList();
+		System.out.println("Original LinkedList");
+		recursiveDoublyLinkedList.print();
+
+		System.out.println("Recursive Reversed LinkedList");
+		recursiveDoublyLinkedList.printRecursiveReverse();
+
+		System.out.println("Recursive Reversed Head: " + recursiveDoublyLinkedList.head);
+		System.out.println("Recursive Reversed Tail: " + recursiveDoublyLinkedList.tail);
+
+	}
+
+	private static DoublyLinkedList getDoublyLinkedList() {
 		DoublyLinkedList doubleLinkedList = new DoublyLinkedList();
 
 		doubleLinkedList.insert(new Node("First"));
@@ -92,12 +117,7 @@ public class CarDataCache {
 		doubleLinkedList.insert(new Node("Third"));
 		doubleLinkedList.insert(new Node("Fourth"));
 		doubleLinkedList.insert(new Node("Fifth"));
-
-		System.out.println("Original LinkedList");
-		doubleLinkedList.print();
-
-		System.out.println("Reversed LinkedList");
-		doubleLinkedList.printReverse();
+		return doubleLinkedList;
 	}
 
 	static class CarData {
@@ -127,12 +147,18 @@ public class CarDataCache {
 		int size = 0;
 
 		static class Node {
+
 			Node prev;
 			Node next;
 			String data;
 
 			public Node(String data) {
 				this.data = data;
+			}
+
+			@Override
+			public String toString() {
+				return "Node: [data=" + data + "]";
 			}
 		}
 
@@ -190,7 +216,31 @@ public class CarDataCache {
 			return true;
 		}
 
-		public Node revereLinkedList() {
+		public void reverseLinkedListRecursive() {
+			Node newTail = head;
+			Node reversedHead = recursive(head, null);
+			head = reversedHead;
+			tail = newTail;
+		}
+
+		public Node recursive(Node curr, Node reversedNode) {
+
+			if (curr == null) {
+				return reversedNode;
+			}
+
+			Node temp = curr;
+			curr = curr.next;
+			if (reversedNode != null) {
+				reversedNode.prev = temp;
+			}
+			temp.next = reversedNode;
+			reversedNode = temp;
+
+			return recursive(curr, reversedNode);
+		}
+
+		public void reverseLinkedList() {
 			Node reversedHead = null;
 
 			Node curr = head;
@@ -212,8 +262,6 @@ public class CarDataCache {
 
 			tail = newTail;
 			head = reversedHead;
-
-			return reversedHead;
 		}
 
 		public void print() {
@@ -226,8 +274,13 @@ public class CarDataCache {
 			System.out.println("X");
 		}
 
+		public void printRecursiveReverse() {
+			this.reverseLinkedListRecursive();
+			print();
+		}
+
 		public void printReverse() {
-			this.revereLinkedList();
+			this.reverseLinkedList();
 			print();
 		}
 
