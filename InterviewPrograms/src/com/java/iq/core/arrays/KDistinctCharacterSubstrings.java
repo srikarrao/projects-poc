@@ -7,7 +7,7 @@ import java.util.Map;
 public class KDistinctCharacterSubstrings {
     public static void main(String[] args) {
         System.out.println(KDistinctCharacterSubstrings("pqpqs", 2));
-        System.out.println(SubstringWithKDistinctChars("pqpqs", 2));
+        System.out.println(SubstringWithKuniqueCountChars("pqpqs", 2));
     }
 
     public static int KDistinctCharacterSubstrings(String string, int k) {
@@ -37,26 +37,26 @@ public class KDistinctCharacterSubstrings {
         return result;
     }
 
-    public static int SubstringWithKDistinctChars(String s, int K) {
+    public static int SubstringWithKuniqueCountChars(String s, int K) {
         char[] charArray = s.toCharArray();
         int left = 0, right = 0;
         Map<Character, Integer> characterCount = new HashMap<>();
-        int distinct = 0;
+        int uniqueCount = 0;
         int result = 0;
         int prefix = 0;
-        
+
         while (right < charArray.length) {
             if (!characterCount.containsKey(charArray[right])) {
                 characterCount.put(charArray[right], 0);
-                distinct++;
+                uniqueCount++;
             }
 
             characterCount.put(charArray[right], characterCount.get(charArray[right]) + 1);
 
-            if (distinct > K) {
+            if (uniqueCount > K) {
                 characterCount.put(charArray[left], characterCount.get(charArray[left]) - 1);
                 prefix = 0;
-                distinct--;
+                uniqueCount--;
                 left++;
             }
 
@@ -66,7 +66,7 @@ public class KDistinctCharacterSubstrings {
                 prefix++;
             }
 
-            if (distinct == K) {
+            if (uniqueCount == K) {
                 result += 1 + prefix;
             }
 
