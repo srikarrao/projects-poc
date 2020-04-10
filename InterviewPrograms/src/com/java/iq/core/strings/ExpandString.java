@@ -41,16 +41,6 @@ public class ExpandString {
         expandHelper(pattern.toCharArray(), 0, new char[] { 'a', 'b' });
     }
 
-    private static boolean hasOneSymbol(String pattern) {
-        for (int i = 0; i < pattern.length(); i++) {
-            if (pattern.charAt(i) == '?') {
-                return true;
-            }
-        }
-
-        return false;
-    }
-
     private static void expandHelper(char[] pattern, int index, char[] characters) {
 
         if (index == pattern.length) {
