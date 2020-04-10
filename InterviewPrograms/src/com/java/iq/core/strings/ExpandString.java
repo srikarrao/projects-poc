@@ -1,5 +1,8 @@
 package com.java.iq.core.strings;
 
+/**
+ * Expand String: Replace ? as 'a' or 'b', expand("a?bab") prints [aabab, abbab]
+ */
 public class ExpandString {
 
     public static void main(String[] args) {
